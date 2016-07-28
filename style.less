@@ -37,7 +37,7 @@ p {
 
 #masthead {
 	height: 100%;
-	background: url("DSC00303_web_blur.jpg") #555555;
+	background: url("img/DSC00303_web_blur.jpg") #555555;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -80,6 +80,9 @@ p {
 		padding: 20px 40px;
 		text-align: left;
 		height:300px;
+		@media (max-width: 480px) {
+			margin-top:10px;
+		}
 	}
 	h3 {
 		color: @CX_orange;
@@ -189,7 +192,7 @@ p {
 
 
 #countdown {
-	background: url("countdown.jpg") #555555;
+	background: url("img/countdown.jpg") #555555;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -202,6 +205,9 @@ p {
 	}
 	#separator_container {
 		padding: 20px 0;
+	}
+	p {
+		color: @CX_white - #333333;
 	}
 	.countdown_text {
 		div {
@@ -264,7 +270,7 @@ a {
 		font-family: Source Sans Pro;
 		color: @CX_white;
 		font-size:20px;
-		text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+		text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 	}
 	#h1_container {
 		display: inline-block;
@@ -314,6 +320,9 @@ a {
 	.schedule {
 		background-color: @CX_white;
 		border-color: @CX_white - #222222;
+		@media(max-width: 480px) {
+			margin-top: 10px;
+		}
 	}
 }
 
@@ -397,7 +406,7 @@ margin-right: 8px;
 
 .cx-badge {
 	display: block;
-	background: url('cx_logo.png');
+	background: url('img/cx_logo.png');
 	width: 160px;
 	height: 100px;
 	background-size:160px;
@@ -423,7 +432,7 @@ margin-right: 8px;
 		left: 7px;
 		width: 50px;
 		height: 35px;
-		background: url('../img/menu-icon-large.png') #666666;
+		background: url('img/menu-icon-large.png') #666666;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: 21px, 100%;
@@ -440,7 +449,7 @@ margin-right: 8px;
 		background-color: rgba(0,0,0,.1); 
 	}
 	.nav-button.open {
-		background: url('../img/close-icon-large.png');
+		background: url('img/close-icon-large.png');
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: 21px, 100%;
