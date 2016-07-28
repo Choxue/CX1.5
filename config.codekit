@@ -158,7 +158,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 327474,
+		"initialSize": 262144,
 		"inputAbbreviatedPath": "\/DSC00303_web_blur.jpg",
 		"outputAbbreviatedPath": "\/DSC00303_web_blur.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -251,6 +251,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/min\/prefixfree.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/prefixfree.min-min.js",
+		"outputAbbreviatedPath": "\/min\/min\/prefixfree.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/music_icon_tilt.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -328,6 +339,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/php-i18n\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/php-i18n\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/play_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -349,6 +369,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/README.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
