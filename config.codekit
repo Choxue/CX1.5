@@ -112,6 +112,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/countdown.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47364,
+		"inputAbbreviatedPath": "\/countdown.jpg",
+		"outputAbbreviatedPath": "\/countdown.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,

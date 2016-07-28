@@ -21,6 +21,15 @@ h1 {
 	letter-spacing: 5px;
 }
 
+h2, h3, h4 {
+	font-family: Montserrat;
+}
+
+p {
+	font-family: Source Sans Pro;
+	color: @off_black;
+	font-size:16px;
+}
 
 
 #poster_credit {
@@ -45,52 +54,55 @@ h1 {
 	position: relative;
 }
 
-#aboutFFF {
-	background: #2c3e50;
-	padding-top: 70px;
-	padding-bottom:70px;	
-	img {
-		padding: 5%;
-		padding-top: 0px;
-		max-width: 100%;
-		padding-bottom: 0px;
-		padding-right: 2%;
-		margin-top: -2%;
+#aboutCX {
+	background: @CX_white;
+	padding-top: 50px;
+	padding-bottom:50px;
+	h2 {
+		font-size:30px;
+		letter-spacing: 2px;
+		color: @off_black;
+		padding-left: 20px;
+		border-left: 7px solid @CX_orange;
 	}
+
 }
 
-#film_guidelines {
-	background: #783c5f;
-	padding-top: 70px;
-	padding-bottom:70px;	
-	ul li {
-		font-size:13pt;
-		padding-top: 7px;
-		padding-bottom: 7px;
-		strong {
-			color: rgb(197, 134, 134);
+
+#countdown {
+	background: url("countdown.jpg") #555555;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 80px 0;
+	text-align: center;
+	h2 {
+		color: @CX_white;
+		font-size: 30px;
+	}
+	#separator_container {
+		padding: 20px 0;
+	}
+	.countdown_text {
+		div {
+			display: inline-block;
+			padding: 0 15px;
+		}
+		h3, h4 {
+			color: @CX_white;
+		}
+		h3 {
+			margin: 0;
+			font-size:55px;
+		}
+		h2 {
+			margin: 0;
 		}
 	}
-	img {
-		padding-top: 0px;
-		max-width: 100%;
-		padding-bottom: 0px;
-	}
-	h3 {
-		margin-top:0;
-		color: #AFAF3A;
-	}
 }
 
-.description_container {
-	color:#DDDDDD;
-	font-family: Open Sans;
-}
 
-.descriptions {
-	font-size: 17pt;
-	font-family: Open Sans;
-}
 
 h3 {
 	font-family: Montserrat;
@@ -98,54 +110,6 @@ h3 {
 	text-align: center;
 }
 
-
-#past-winners {
-	background: #6d8689;
-	padding-top: 70px;
-	padding-bottom:50px;	
-	img {
-		padding-top: 0px;
-		width: 100%;
-		padding-bottom: 0px;
-	}
-	h3 {
-		margin-top:0;
-		color: #ecf0f1;
-		text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.34);
-	}
-	h4 {
-		margin:5px 0;
-	}
-	.vidtitle, a {
-		font-family: Montserrat;
-		color: #ecf0f1;
-		font-size: 30px;
-		text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.57);
-		margin-bottom:0;
-	}
-	.vidcell {
-		padding-bottom:25px;
-		img {
-			padding: 3px;
-			border: 1px solid rgba(224, 224, 216, 0.67);
-		}
-		.vidaward {
-			color: #f1c40f;
-			margin: 0;
-			font-size: 16px;
-			text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
-		}
-		.viddirector {
-			color: #ecf0f1;
-			margin: 0px 0;
-			text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
-			float: left;
-			font-size: 16px;
-			padding-right: 10px;
-		}
-	}
-
-}
 
 .description_container {
 	color:#DDDDDD;
@@ -215,26 +179,27 @@ a {
 		display: inline-block;
 		text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.67);
 	}
-	#separator_container {
-		text-align: center;
-		margin: 0 auto;
-		.separator {
-			display: inline-block;
-			line-height: normal;
-			vertical-align: middle;
-		}
-		.edge {
-			width:100px;
-			height:1px;
-			border-bottom: 1px solid @CX_white;
-			margin: 0 10px;
-		}
-		.center {
-			width: 6px;
-			height: 6px;
-			border-radius: 3px;
-			background-color: @CX_orange;
-		}
+}
+
+#separator_container {
+	text-align: center;
+	margin: 0 auto;
+	.separator {
+		display: inline-block;
+		line-height: normal;
+		vertical-align: middle;
+	}
+	.edge {
+		width:100px;
+		height:1px;
+		border-bottom: 1px solid @CX_white;
+		margin: 0 10px;
+	}
+	.center {
+		width: 6px;
+		height: 6px;
+		border-radius: 3px;
+		background-color: @CX_orange;
 	}
 }
 
