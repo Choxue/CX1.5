@@ -18,6 +18,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<script src="jquery.countdown.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
@@ -112,19 +113,28 @@
 				</div>
 				<div class="row" id='button_container' >
 					<div class="col-lg-6 col-lg-push-3">
-							<button type='button' class='btn btn-primary youtube'><?php echo L::watch_live_button; ?></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=".stream_modal"><?php echo L::watch_live_button; ?></button>
 							<button type='button' class='btn btn-secondary schedule'><?php echo L::schedule_button; ?></button>
 					</div>
 				</div>
-
 			</div>
+		</div>
+
+		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/YFdkBaCvLog' frameborder='0' allowfullscreen></iframe></div>
+		    </div>
+		  </div>
 		</div>
 
 		<div id='aboutCX'>
 			<div class='container'>
 				<div class="row">
 					<div class="col-lg-6">
-						<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/175349422' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+						<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+						<iframe src='https://player.vimeo.com/video/<?php echo L::vimeo_ID; ?>' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
 					</div>
 					<div class="col-lg-5">
 						<h2><?php echo L::about_title; ?></h2>

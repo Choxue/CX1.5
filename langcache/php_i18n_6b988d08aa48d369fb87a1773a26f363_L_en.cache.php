@@ -10,6 +10,7 @@ const subtagline = 'Integrating sports with the educational system<br>MAKING SPO
 const watch_live_button = '▶ WATCH LIVE NOW';
 const schedule_button = 'VIEW FULL SCHEDULE';
 const about_title = 'ABOUT US';
+const vimeo_ID = '176628490';
 const about_description = 'Choxue, as a mission-driven company, believes that sports are the most important training ground of our future leaders. Therefore, we intend to integrate sports with the educational system by creating the future infrastructure of sports in Asia. How we intend to make this happen is by Making Sports Easier and empowering our sports teams and help them become successful. At this time, we\'re a sports media company that focuses on live sports broadcasting and analytics.';
 const tournament_CX = 'TOURNAMENT CX';
 const tournament_CX_description = 'Tournament CX description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.';
