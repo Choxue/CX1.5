@@ -117,6 +117,13 @@
 							<button type='button' class='btn btn-secondary schedule'><?php echo L::schedule_button; ?></button>
 					</div>
 				</div>
+				<div class="row" id='social_media_container' >
+					<div class="col-lg-6 col-lg-push-3">
+						<a href="https://facebook.com/choxue"><img src="img/facebook.png"></a>
+						<a href="https://www.instagram.com/choxue/"><img src="img/instagram.png"></a>
+						<a href="https://www.youtube.com/c/CHOXUE%E7%90%83%E5%AD%B8/"><img src="img/youtube.png"></a>
+					</div>
+				</div>
 			</div>
 		</div>
 
