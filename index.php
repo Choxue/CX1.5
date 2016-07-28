@@ -23,7 +23,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
- 		<meta name="description" content="Choxue, as a mission-driven company, believes that sports are the most important training ground of our future leaders. Therefore, we intend to integrate sports with the educational system by creating the future infrastructure of sports in Asia. How we intend to make this happen is by Making Sports Easier and empowering our sports teams and help them become successful. At this time, we're a sports media company that focuses on live sports broadcasting and analytics." />
+ 		<meta name="description" content="<?php echo L::about_description; ?>" />
 
 		<!--[if lt IE 9]><script src="http://xy-kao.com/theme/new/html5shiv.js"></script><![endif]-->
 	<script>
