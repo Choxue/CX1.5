@@ -9,8 +9,7 @@
 	<!--<p>Applied Language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
 		<meta charset="UTF-8">
-		<title><?php echo L::title; ?></title>
-		
+		<title><?php echo L::title; ?></title>	
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">			
 		<link rel="stylesheet/less" type="text/css" href="style.less"/>
