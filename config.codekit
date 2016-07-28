@@ -68,6 +68,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/DSC00429 copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.54482e+06,
+		"inputAbbreviatedPath": "\/img\/DSC00429 copy.jpg",
+		"outputAbbreviatedPath": "\/img\/DSC00429 copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/DSC00429.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.88577e+06,
+		"inputAbbreviatedPath": "\/img\/DSC00429.JPG",
+		"outputAbbreviatedPath": "\/img\/DSC00429.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/DSC00429_web_blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169978,
+		"inputAbbreviatedPath": "\/img\/DSC00429_web_blur.jpg",
+		"outputAbbreviatedPath": "\/img\/DSC00429_web_blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
