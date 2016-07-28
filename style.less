@@ -32,16 +32,6 @@ p {
 }
 
 
-#poster_credit {
-	position: absolute;
-	bottom:0;
-	margin: 10px;
-	line-height:18px;
-	color: rgba(255, 255, 255, 0.85);
-	font-size: 13px;
-	text-shadow: 0px 0px 8px #000000;
-}
-
 
 
 
@@ -59,13 +49,43 @@ p {
 	padding-top: 50px;
 	padding-bottom:50px;
 	h2 {
-		font-size:30px;
+		font-size:28px;
 		letter-spacing: 2px;
 		color: @off_black;
 		padding-left: 20px;
 		border-left: 7px solid @CX_orange;
 	}
+}
 
+#schedule {
+	background: @off_black - #333333;
+	padding-top: 50px;
+	text-align: right;
+	h2 {
+		font-size:28px;
+		letter-spacing: 0px;
+		color: @CX_white;
+		padding-right: 20px;
+		border-right: 7px solid @CX_orange;
+	}
+	img {
+		width: 100%;
+	}
+	.event {
+		text-align: right;
+		margin: 25px 0;
+		h3 {
+			color: @CX_orange;
+			font-size:18px;
+			margin-bottom: 2px;
+		}
+		h4 {
+			color: @CX_white - #333333;
+			font-size: 14px;
+			font-family: Source Sans Pro;
+			margin: 2px 0;
+		}
+	}
 }
 
 
@@ -104,29 +124,6 @@ p {
 
 
 
-h3 {
-	font-family: Montserrat;
-	font-size: 80px;
-	text-align: center;
-}
-
-
-.description_container {
-	color:#DDDDDD;
-	font-family: Open Sans;
-}
-
-.descriptions {
-	font-size: 17pt;
-	font-family: Open Sans;
-}
-
-h3 {
-	font-family: Montserrat;
-	font-size: 80px;
-	text-align: center;
-}
-
 
 .nav {
 	z-index: 100;
@@ -159,11 +156,6 @@ h3 {
 a {
 	text-decoration:none;
 }
-#guideline_links {
-	font-size: 10pt;
-	text-align: center;
-	margin-top:5px;color: #005BBD;
-}
 
 
 #banner {
@@ -173,7 +165,7 @@ a {
 		font-family: Source Sans Pro;
 		color: @CX_white;
 		font-size:20px;
-		text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.67);
+		text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 	}
 	#h1_container {
 		display: inline-block;
@@ -226,375 +218,27 @@ a {
 	}
 }
 
-#challenges {
-	background: #1D8B76;
-	padding-top: 110px;
-	padding-bottom:70px;
-	h3 {
-		margin-top:0;
-		color: #C1EFFA;
-		opacity: 0.9;
-	}
-	h6 {
-		color:;
-	}
-	.descriptions {
-		color: #FFFFFF;
-		opacity: 0.9;
-	}
-	#current_challenge {
-		text-align: center;
-		h4 {
-			font-family: Montserrat;
-			color: #CDDB68;
-			opacity: 0.9;
-			font-size: 22pt;
-		}
-		h5 {
-			font-family: Montserrat;
-			color: #E6E6E6;
-			opacity: 0.9;
-			font-size: 31pt;
-		}
-	}
-	#challenges_info_container {
-		margin-top:20px;
-	}
-	#challenge_description {
-		p {
-			padding: 0 15px;
-			color: white;
-			font-family: open Sans;
-			font-size: 17px;
-			opacity:0.9;
-		}
-		a {
-			color:white;
-			text-decoration:underline;
-		}
-	}
-	#challenge_prize {
-		h4 {
-			color:#f1c40f;
-			margin:0;
-		}
-		span {
-		}
-	}
-	#challenge_form {
-		margin-top:20px;
-	}
-}
-
-#due_date {
-	h6 {
-		font-weight: bold;
-		margin:0;
-	}
-	#text_due {
-		color: white;
-		font-size: 14pt;
-		padding-top: 5%;
-	}
-	#due_month {
-		color: white;
-		font-size: 14pt;
-		padding-top: 9%;
-	}
-	#due_day {
-		color: #34495e;
-		font-size: 37pt;
-		padding-top: 16%;
-	}
-}
-
-#entry_guidelines {
-	padding-top: 70px;
-	padding-bottom:70px;
-	background: #61ADE0;
-	#entry_rules {
-		img {
-			margin-top: 10px;
-		}
-		p {
-			font-size:12pt;
-		}
-	}
-	h4 {
-		margin-top: 0;
-		color: #F2FCFF;
-		font-family: Montserrat;
-		text-align: center;
-		font-size: 25pt;
-	}
-	.section_symbol {
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 10px;
-		display: block;
-	}
-	.descriptions {
-		font-size: 14pt;
-	}
-	ul {
-		list-style: circle inside; 
-	}
-}
-
-
-#film_challenge_description {
-	border-right: 1px solid rgba(255, 255, 255, 0.56);
-}
 
 #mobile_nav {
 	display:none;
 }
 
-#submit_a_film {
-	padding-top: 110px;
-	padding-bottom:70px;
-	background-image:url(cardboard_flat.jpg);
-	h3 {
-		margin-top:0;
-		color: #565D5F;
-		opacity: 0.9;
-	}
-	.white_spacer {
-		height: 14px;
-		border-bottom: 1px solid rgb(173, 173, 173);
-	}
-	#film_spacer {
-		float: left;
-		width: 70%;
-		margin-left: 15%;
-	}
-	.description_row {
-		margin-top:10px;
-	}
-	.descriptions {
-		text-align: center;
-	}
-	.button_row {
-		margin-top:15px;
-	}
-}
-
-
-#masthead-footer {
-	bottom: 0;
-	position: absolute;
-	width: 100%;
-	margin-bottom: 5px;
-	#promo_container {
-		width: 200px;
-		display: block;
-		background-image: url(thumbnail.jpg);
-		height: 111px;
-		background-size: 200px;
-		box-shadow: 0px 0px 90px 16px rgba(0, 0, 0, 0.88);
-		margin:0 auto;
-		padding: 27px;
-
-	}
-	#play-link {
-		margin: 0 auto;
-		display: block;
-		width: 55px;
-		opacity: 0.8;
-		height: 55px;
-		background-size: 55px;
-		background-image: url('play_icon.png');
-	}
-	#play-link:hover {
-		opacity:0.6;
-	}
-	#play_icon {
-		margin: 0 auto;
-		display: block;
-		width: 50px;
-		opacity: 0.8;
-		padding-top: 30px;
-	}
-	#promoDesc {
-		color:white;
-		padding-left:15px;
-		text-align:center;
-		h4 {
-			font-family:Montserrat;
-			font-size:20px;
-		}
-		opacity:0.9;
-	}
-	#challenge-description {
-		width: 75%;
-		display: inline-block;
-		h4 {
-			font-family: Montserrat;color: rgb(241, 196, 15);font-size: 23px;opacity: 0.9;display: inline-block;text-shadow: 0px 0px 8px #000000;
-		}
-		p {
-			color: white;text-shadow: 0px 0px 8px #000000;
-		}
-	}
-	#due-sprite {
-		display:inline-block;
-		text-align: center;
-		zoom: 0.8;
-		-moz-transform: scale(0.8);
-		margin-left: 20px;
-		opacity: 0.9;
-		width:0;
-	}
-
-
-}
 
 
 
-.fadeVideo {
-	opacity: 0;
-	transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-webkit-transition: opacity 1s ease-in-out;
-	transition-timing-function: ease-in-out;
-	-webkit-transition-timing-function: ease-in-out;
-}
-
-._videoIn {
-	opacity: 1;
-}
-
-.fadeOut {
-	opacity: 0;
-}
 
 
-.clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
+
+
 @media (max-width: 992px) {
-	.descriptions {
-		text-align:center;
-	}
-	#aboutFFF img {
-		max-width:40%;
-		margin-left:30%;
-	}
-	#aboutFFF {
-		padding-top: 7%;
-		padding-bottom: 5%;
-	}
-	#film_guidelines img {
-		max-width: 40%;
-		margin-left: 30%;
-	}
-	#film_guidelines ul {
-		text-align:center;
-	}
-	#due_date {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top:5px;
-		margin-bottom: 10px;
-	}
-
-	#button_container {
-		margin-left: 0%;
-		button {
-			width: 50%;
-			margin-left: 25%;
-		}
-	}
-	#film_challenge_description {
-		border-right:none;
-	}
-
-
-	#film_guidelines {
-		padding-top:5%;
-		padding-bottom: 5%;
-	}
-	#challenges {
-		padding-top:5%;
-		padding-bottom: 5%;
-	}
-	#submit_a_film {
-		padding-top:5%;
-		padding-bottom: 5%;
-		min-height:0px;
-	}
-	#submit_a_film .button_row {
-		margin-top: 0px;
-	}
-	#entry_guidelines {
-		padding-top:20px;
-		padding-bottom: 30px;
-		.section_symbol {
-			margin-bottom: 20px;
-			margin-top:25px;
-		}
-	}
-
-	@icon_width: 170px;
-	.mobile_icon {
-		width: @icon_width !important;
-		height: @icon_width !important;
-		background-size: @icon_width !important;
-	}
-
-	.music-icon {
-		background-position: 0px 0px !important;
-		.mobile_icon;
-	}
-
-	.entry-rules {
-		background-position: 0px -@icon_width !important;
-		.mobile_icon;
-	}
-
-	.gear {
-		background-position: 0px -@icon_width*2 !important;
-		.mobile_icon;
-	}
-
 	h3 {
 		font-size:50px;
 	}
-	.descriptions {
-		font-size:13pt;
-	}
-	#submit_a_film #film_spacer {
-		width: 50%;
-		margin-left: 25%;
-	}
-	#challenges #challenges_info_container {
-		margin-top:0;
-	}
-	#challenges #current_challenge h5 {
-		font-size: 24pt;
-		margin-top:0;
-	}
-	#entry_guidelines .descriptions {
-		font-size: 12pt;
-	}
+
 	h1 {
 		font-size:75px;
 	}
-	#banner {
-		margin-top:8%;
-	}
-	#film_guidelines ul {
-		list-style: none;
-	}
-	#masthead-film-challenge {
-		display:none;
-	}
-	#masthead-footer {
-		margin-bottom:15px;
-	}
+
 }
 
 /*********** BREAKPOINT FOR MOBILE NAVIGATION ***********/
@@ -605,9 +249,7 @@ a {
 	#mobile_nav {
 		display:block;
 	}
-	#poster_credit {
-		display:none;
-	}
+
 }
 
 @media (max-width: 800px) {
@@ -629,23 +271,11 @@ margin-right: 8px;
 	#banner {
 		margin-top:6%;
 	}
-	#masthead-footer {
-		display:none;
-	}
-	#h1_container {
-		background-color: rgba(0, 0, 0, 0.5);
-	}
-	.vidcell {
-		text-align:center;
-	}
-	#past-winners .vidcell .viddirector {
-		float: none;
-	}
+
 }
 @media (max-height:650px) {
 	#banner {
 		margin-top:3%;
-
 	}
 }
 @media (max-height:551px) {
