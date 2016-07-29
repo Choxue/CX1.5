@@ -156,6 +156,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/media-appledaily.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22946,
+		"inputAbbreviatedPath": "\/img\/media-appledaily.jpg",
+		"outputAbbreviatedPath": "\/img\/media-appledaily.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media-businessinsider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17751,
+		"inputAbbreviatedPath": "\/img\/media-businessinsider.png",
+		"outputAbbreviatedPath": "\/img\/media-businessinsider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media-goodtv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6413,
+		"inputAbbreviatedPath": "\/img\/media-goodtv.png",
+		"outputAbbreviatedPath": "\/img\/media-goodtv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media-sportsv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11917,
+		"inputAbbreviatedPath": "\/img\/media-sportsv.png",
+		"outputAbbreviatedPath": "\/img\/media-sportsv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/menu-icon-large.png": {
 		"fileType": 32768,
 		"ignore": 0,

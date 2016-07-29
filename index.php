@@ -146,6 +146,13 @@
 					<div class="col-lg-5">
 						<h2><?php echo L::about_title; ?></h2>
 						<p><?php echo L::about_description; ?></p>
+						<div class="row press">.
+							<a href="http://www.appledaily.com.tw/appledaily/article/sports/20130723/35169057/"><img src="img/media-appledaily.jpg"></a>
+							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="img/media-businessinsider.png"></a>
+							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="img/media-goodtv.png"></a>
+							<a href="http://www.sportsv.net/articles/28077"><img src="img/media-sportsv.png"></a>
+
+						</div>
 					</div>
 				</div>
 			</div>
