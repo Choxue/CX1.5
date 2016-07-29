@@ -76,9 +76,10 @@
 					<button class="nav-button">&nbsp;</button>
 					<ul class="primary-nav">
 						<li><a href='#masthead' class='active'><?php echo L::nav_home; ?></a></li>
-						<li><a href='#aboutCX'><?php echo L::nav_about; ?></a></li> 
-						<li><a href='#team'><?php echo L::nav_team; ?></a></li> 
+						<li><a href='#aboutCX'><?php echo L::nav_about; ?></a></li>
+						<li><a href='#countdown'><?php echo L::nav_tournament_CX; ?></a></li>  
 						<li><a href='#schedule'><?php echo L::nav_schedule; ?></a></li>
+						<li><a href='#team'><?php echo L::nav_team; ?></a></li> 
 						<li><a href='#contact'><?php echo L::nav_contact; ?></a></li>
 					</ul>
 				</div>
@@ -88,8 +89,9 @@
 					<div class="internalNav">
 						<a href='#masthead' class='active'><?php echo L::nav_home; ?></a>  
 						<a href='#aboutCX'><?php echo L::nav_about; ?></a>  
-						<a href='#team'><?php echo L::nav_team; ?></a>  
+						<a href='#countdown'><?php echo L::nav_tournament_CX; ?></a>  
 						<a href='#schedule'><?php echo L::nav_schedule; ?></a>  
+						<a href='#team'><?php echo L::nav_team; ?></a>
 						<a href='#contact'><?php echo L::nav_contact; ?></a>  
 					</div>
 					<div class="" id='menuFade'>
@@ -150,7 +152,7 @@
 							<a href="http://www.appledaily.com.tw/appledaily/article/sports/20130723/35169057/"><img src="img/media-appledaily.jpg"></a>
 							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="img/media-businessinsider.png"></a>
 							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="img/media-goodtv.png"></a>
-							<a href="http://www.sportsv.net/articles/28077"><img src="img/media-sportsv.png"></a>
+							<a href="http://www.sportsv.net/articles/28077"><img src="img/media-sportsv.jpg"></a>
 
 						</div>
 					</div>

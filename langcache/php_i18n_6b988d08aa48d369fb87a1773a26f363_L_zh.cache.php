@@ -5,6 +5,7 @@ const nav_about = '關於球學';
 const nav_team = '團隊';
 const nav_schedule = '賽事';
 const nav_contact = '聯絡我們';
+const nav_tournament_CX = '球學高中籃球交流賽';
 const tagline = '歡迎來球學';
 const subtagline = '讓運動回歸教育<br>讓運動更簡單';
 const watch_live_button = '▶ 觀看直播';

@@ -5,6 +5,7 @@ const nav_about = 'ABOUT';
 const nav_team = 'MEET US';
 const nav_schedule = 'SCHEDULE';
 const nav_contact = 'CONTACT';
+const nav_tournament_CX = 'TOURNAMENT CX';
 const tagline = 'WELCOME TO CHOXUE';
 const subtagline = 'Integrating sports with the educational system<br>MAKING SPORTS EASIER';
 const watch_live_button = '▶ WATCH LIVE NOW';
