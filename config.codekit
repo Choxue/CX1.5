@@ -35,6 +35,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bonny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27835,
+		"inputAbbreviatedPath": "\/img\/bonny.jpg",
+		"outputAbbreviatedPath": "\/img\/bonny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cheng.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27466,
+		"inputAbbreviatedPath": "\/img\/cheng.jpg",
+		"outputAbbreviatedPath": "\/img\/cheng.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/close-icon-large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -156,6 +178,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/jagger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26374,
+		"inputAbbreviatedPath": "\/img\/jagger.jpg",
+		"outputAbbreviatedPath": "\/img\/jagger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jason.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54071,
+		"inputAbbreviatedPath": "\/img\/jason.jpg",
+		"outputAbbreviatedPath": "\/img\/jason.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50789,
+		"inputAbbreviatedPath": "\/img\/jenny.jpg",
+		"outputAbbreviatedPath": "\/img\/jenny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35451,
+		"inputAbbreviatedPath": "\/img\/jero.jpg",
+		"outputAbbreviatedPath": "\/img\/jero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/media-appledaily.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -244,6 +310,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Slack for iOS Upload.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85686,
+		"inputAbbreviatedPath": "\/img\/Slack for iOS Upload.jpg",
+		"outputAbbreviatedPath": "\/img\/Slack for iOS Upload.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tmac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28798,
+		"inputAbbreviatedPath": "\/img\/tmac.jpg",
+		"outputAbbreviatedPath": "\/img\/tmac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/watson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 446859,
+		"inputAbbreviatedPath": "\/img\/watson.jpg",
+		"outputAbbreviatedPath": "\/img\/watson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/woman.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -251,6 +350,17 @@
 		"initialSize": 59642,
 		"inputAbbreviatedPath": "\/img\/woman.jpg",
 		"outputAbbreviatedPath": "\/img\/woman.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/xiao.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25681,
+		"inputAbbreviatedPath": "\/img\/xiao.jpg",
+		"outputAbbreviatedPath": "\/img\/xiao.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

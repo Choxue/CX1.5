@@ -24,7 +24,7 @@
 
  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
  		<meta name="description" content="<?php echo L::about_description; ?>" />
-
+ 		<meta name="google-site-verification" content="KtHxbHhLpRo8zvcLgYw-d062XeCtuvtsWF82QSEgyVU" />
 		<!--[if lt IE 9]><script src="http://xy-kao.com/theme/new/html5shiv.js"></script><![endif]-->
 		<script type="text/javascript">
 		  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
@@ -244,8 +244,8 @@
 					<div class="col-lg-5">
 						<h2><?php echo L::about_title; ?></h2>
 						<p><?php echo L::about_description; ?></p>
-						<div class="row press">.
-							<a href="http://www.appledaily.com.tw/appledaily/article/sports/20130723/35169057/"><img src="img/media-appledaily.jpg"></a>
+						<div class="row press">
+							<a href="http://www.appledaily.com.tw/realtimenews/article/new/20160611/883804/"><img src="img/media-appledaily.jpg"></a>
 							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="img/media-businessinsider.png"></a>
 							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="img/media-goodtv.png"></a>
 							<a href="http://www.sportsv.net/articles/28077"><img src="img/media-sportsv.jpg"></a>
@@ -346,35 +346,35 @@
 				<div class="row">
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/cheng.jpg">
 							<h3>Cheng</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
-							<h3>Jerro</h3>
+							<img src="img/jero.jpg">
+							<h3>Jero</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/tmac.jpg">
 						<h3>Tmac</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/jagger.jpg">
 							<h3>Jagger</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/watson.jpg">
 							<h3>Watson</h3>
 							<p>Bio</p>
 
@@ -382,14 +382,14 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/woman.jpg">
+							<img src="img/bonny.jpg">
 						<h3>Bonny</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/profile.jpg">
+							<img src="img/xiao.jpg">
 							<h3>Xiao</h3>
 							<p>Bio</p>
 
@@ -412,14 +412,14 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/woman.jpg">
+							<img src="img/jenny.jpg">
 							<h3>Jenny</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/jason.jpg">
 						<h3>Jason</h3>
 						<p>Bio</p>
 						</div>
