@@ -242,35 +242,35 @@
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Cheng Ho</h3>
+							<h3>Cheng</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Jerro Yang</h3>
+							<h3>Jerro</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Jagger Hung</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
-						<div class="person">
-							<img src="img/nobody.jpg">
-						<h3>Tmac Chang</h3>
+						<h3>Tmac</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Watson Chang</h3>
+							<h3>Jagger</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+						<div class="person">
+							<img src="img/nobody.jpg">
+							<h3>Watson</h3>
 							<p>Bio</p>
 
 						</div>
@@ -278,14 +278,14 @@
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/woman.jpg">
-						<h3>Bonny Liu</h3>
+						<h3>Bonny</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Xiaoyang Kao</h3>
+							<h3>Xiao</h3>
 							<p>Bio</p>
 
 						</div>
@@ -293,7 +293,7 @@
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-							<h3>Andy Tsai</h3>
+							<h3>Andy</h3>
 							<p>Bio</p>
 
 						</div>
@@ -301,21 +301,21 @@
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-						<h3>Marcus Su</h3>
+						<h3>Marcus</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/woman.jpg">
-							<h3>Jenny Chang</h3>
+							<h3>Jenny</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
 							<img src="img/nobody.jpg">
-						<h3>Jason Cheng</h3>
+						<h3>Jason</h3>
 						<p>Bio</p>
 						</div>
 					</div>
