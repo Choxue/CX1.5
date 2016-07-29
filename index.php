@@ -212,7 +212,7 @@
 				<div class="row" id='button_container' >
 					<div class="col-lg-6 col-lg-push-3">
 							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=".stream_modal"><?php echo L::watch_live_button; ?></button>
-							<button type='button' class='btn btn-secondary schedule'><?php echo L::schedule_button; ?></button>
+							<!--<button type='button' class='btn btn-secondary schedule'><?php echo L::schedule_button; ?></button>-->
 					</div>
 				</div>
 				<div class="row" id='social_media_container' >
