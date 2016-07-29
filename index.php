@@ -142,16 +142,16 @@
 				$(".nav-button").click(function () {
 					$(".nav-button,.primary-nav").toggleClass("open");
 				});
-				$("#days").countdown("2016/09/25", function(event) {
+				$("#days").countdown("2016/09/13", function(event) {
 				  $(this).text(event.strftime('%D'));
 				});
-				$("#hours").countdown("2016/09/25", function(event) {
+				$("#hours").countdown("2016/09/13", function(event) {
 				  $(this).text(event.strftime('%H'));
 				});
-				$("#minutes").countdown("2016/09/25", function(event) {
+				$("#minutes").countdown("2016/09/13", function(event) {
 				  $(this).text(event.strftime('%M'));
 				});
-				$("#seconds").countdown("2016/09/25", function(event) {
+				$("#seconds").countdown("2016/09/13", function(event) {
 				  $(this).text(event.strftime('%S'));
 				});
 
