@@ -284,7 +284,7 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/profile.jpg">
 							<h3>Xiao</h3>
 							<p>Bio</p>
 
@@ -292,7 +292,7 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/andy.jpg">
 							<h3>Andy</h3>
 							<p>Bio</p>
 
