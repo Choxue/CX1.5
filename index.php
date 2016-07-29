@@ -201,19 +201,19 @@
 					<div class="col-lg-6">
 						<h2><?php echo L::upcoming_schedule; ?></h2>
 						<div class="event">
-							<h3>WOMENS' JONES CUP</h3>
-							<h4>August 3rd - 7th</h4>
-							<h4>Xinzhuang Stadium, New Taipei, Taiwan</h4>
+							<h3><?php echo L::event_1_name; ?></h3>
+							<h4><?php echo L::event_1_date; ?></h4>
+							<h4><?php echo L::event_1_location; ?></h4>
 						</div>
 						<div class="event">
-							<h3>姥姥盃</h3>
-							<h4>August 3rd - 7th</h4>
-							<h4>Xinzhuang Stadium, New Taipei, Taiwan</h4>
+							<h3><?php echo L::event_2_name; ?></h3>
+							<h4><?php echo L::event_2_date; ?></h4>
+							<h4><?php echo L::event_2_location; ?></h4>
 						</div>
 						<div class="event">
-							<h3>WOMENS' JONES CUP</h3>
-							<h4>August 3rd - 7th</h4>
-							<h4>Xinzhuang Stadium, New Taipei, Taiwan</h4>
+							<h3><?php echo L::event_3_name; ?></h3>
+							<h4><?php echo L::event_3_date; ?></h4>
+							<h4><?php echo L::event_3_location; ?></h4>
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -277,7 +277,7 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/woman.jpg">
 						<h3>Bonny Liu</h3>
 						<p>Bio</p>
 						</div>
@@ -307,7 +307,7 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="img/nobody.jpg">
+							<img src="img/woman.jpg">
 							<h3>Jenny Chang</h3>
 							<p>Bio</p>
 						</div>

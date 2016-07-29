@@ -29,6 +29,15 @@ const placeholder_name = 'Name';
 const placeholder_email = 'Email';
 const placeholder_message = 'Message';
 const send_message_button = 'SEND MESSAGE';
+const event_1_name = 'WOMENS\' JONES CUP';
+const event_1_date = 'August 3rd - 7th';
+const event_1_location = 'Xinzhuang Stadium, New Taipei, Taiwan';
+const event_2_name = 'Lau Lau Cup';
+const event_2_date = 'August 2nd - 6th';
+const event_2_location = 'I-Shou University';
+const event_3_name = 'Jin Yin Cup';
+const event_3_date = 'August 18th - 22nd';
+const event_3_location = 'Hualien Stadium';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }
