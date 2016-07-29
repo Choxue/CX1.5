@@ -26,46 +26,53 @@
  		<meta name="description" content="<?php echo L::about_description; ?>" />
 
 		<!--[if lt IE 9]><script src="http://xy-kao.com/theme/new/html5shiv.js"></script><![endif]-->
-	<script>
-		$(document).ready(function() {
-			$('.internalNav a').click(function(){
-				$('html, body').animate({
-			        scrollTop: $( $(this).attr('href') ).offset().top
-			    }, 300, 'swing');
-			    return false;
-			});
+		<script type="text/javascript">
+		  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+		  analytics.load("MNApaC2NfkCAdEj06fXTjNmJvnr8R5eS");
+		  analytics.page()
+		  }}();
+		</script>
+		
+		<script>
+			$(document).ready(function() {
+				$('.internalNav a').click(function(){
+					$('html, body').animate({
+				        scrollTop: $( $(this).attr('href') ).offset().top
+				    }, 300, 'swing');
+				    return false;
+				});
 
-			$('.primary-nav a').click(function(){
-			    $('html, body').animate({
-			        scrollTop: $( $(this).attr('href') ).offset().top
-			    }, 300, 'swing');
-			    return false;
-			});
+				$('.primary-nav a').click(function(){
+				    $('html, body').animate({
+				        scrollTop: $( $(this).attr('href') ).offset().top
+				    }, 300, 'swing');
+				    return false;
+				});
 
-			/* MOBILE DROPDOWN MENU */
-			$(".nav-button").click(function () {
-				$(".nav-button,.primary-nav").toggleClass("open");
-			});
+				/* MOBILE DROPDOWN MENU */
+				$(".nav-button").click(function () {
+					$(".nav-button,.primary-nav").toggleClass("open");
+				});
 
-			$("#days").countdown("2016/09/25", function(event) {
-			  $(this).text(event.strftime('%D'));
-			});
+				$("#days").countdown("2016/09/25", function(event) {
+				  $(this).text(event.strftime('%D'));
+				});
 
-			$("#hours").countdown("2016/09/25", function(event) {
-			  $(this).text(event.strftime('%H'));
-			});
+				$("#hours").countdown("2016/09/25", function(event) {
+				  $(this).text(event.strftime('%H'));
+				});
 
-			$("#minutes").countdown("2016/09/25", function(event) {
-			  $(this).text(event.strftime('%M'));
-			});
+				$("#minutes").countdown("2016/09/25", function(event) {
+				  $(this).text(event.strftime('%M'));
+				});
 
-			$("#seconds").countdown("2016/09/25", function(event) {
-			  $(this).text(event.strftime('%S'));
-			});
+				$("#seconds").countdown("2016/09/25", function(event) {
+				  $(this).text(event.strftime('%S'));
+				});
 
-		});		
-	
-	</script>
+			});		
+		
+		</script>
 	</head>
 
 	<body>
