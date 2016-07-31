@@ -200,7 +200,7 @@ p {
 
 
 #countdown {
-	background: url("/img/countdown.jpg") #555555;
+	background: url("img/countdown.jpg") #555555;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -248,19 +248,25 @@ p {
 		float: right;
 		font-size:15px;
 		font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
-		a {
+		>a, >a:hover, >a:focus, .dropdown>a {
 			display: inline-block;
-			margin-left: 15px;
-			margin-right: 15px;
+			margin-left: 7px;
+			margin-right: 7px;
 			padding-top: 12px;
 			line-height: 20px;
 			text-decoration: none;
 			color:#FFFFFF;
-		}
-		a:hover, a.active {
-			color: @CX_orange;
+			background-color: transparent;
+			border: 1px solid transparent;
 			padding-bottom: 5px;
+
+		}
+		>a:hover, >a.active, .dropdown>a:hover, .dropdown>a.active {
+			color: @CX_orange;
 			border-bottom: 1px solid @CX_orange;
+		}
+		.dropdown {
+			display: inline-block;
 		}
 	}
 }
@@ -370,6 +376,15 @@ a {
 
 
 
+@media (max-width: 768px) {
+	.cx-badge {
+		margin: 0 auto;
+	}
+	.internalNav {
+		margin-top: 50px;
+	}
+}
+
 @media (max-width: 992px) {
 	h3 {
 		font-size:50px;
@@ -438,7 +453,7 @@ margin-right: 8px;
 
 .cx-badge {
 	display: block;
-	background: url('/img/cx_logo.png');
+	background: url('img/cx_logo.png');
 	width: 160px;
 	height: 100px;
 	background-size:160px;
@@ -464,7 +479,7 @@ margin-right: 8px;
 		left: 7px;
 		width: 50px;
 		height: 35px;
-		background: url('/img/menu-icon-large.png') #666666;
+		background: url('img/menu-icon-large.png') #666666;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: 21px, 100%;

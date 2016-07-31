@@ -6,7 +6,7 @@
 		$i18n->init();
 	?>
 
-	<!--<p>Applied Language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
+	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
 		<meta charset="UTF-8">
 		<title><?php echo L::title; ?></title>	
@@ -17,7 +17,7 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-		<script src="/jquery.countdown.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -25,7 +25,7 @@
  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
  		<meta name="description" content="<?php echo L::about_description; ?>" />
  		<meta name="google-site-verification" content="fM4jSTwtuLHjGABh62nMQLs9hgQ4B3bDNlsd5YhuvRg" />
- 		<!--[if lt IE 9]><script src="http://xy-kao.com/theme/new/html5shiv.js"></script><![endif]-->
+ 		<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
 		<script type="text/javascript">
 		  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
 		  analytics.load("MNApaC2NfkCAdEj06fXTjNmJvnr8R5eS");
@@ -177,6 +177,10 @@
 						<li><a href='#schedule'><?php echo L::nav_schedule; ?></a></li>
 						<li><a href='#team'><?php echo L::nav_team; ?></a></li> 
 						<li><a href='#contact'><?php echo L::nav_contact; ?></a></li>
+						<li><a href='#'>LEAGUES > HBL</a></li>
+						<li><a href='#'>LEAGUES > WSBL</a></li>
+						<li><a href='#'>LEAGUES > SBL</a></li>
+	
 					</ul>
 				</div>
 
@@ -189,6 +193,15 @@
 						<a href='#schedule'><?php echo L::nav_schedule; ?></a>  
 						<a href='#team'><?php echo L::nav_team; ?></a>
 						<a href='#contact'><?php echo L::nav_contact; ?></a>  
+						<a class='active' style='border: 1px solid transparent; cursor: none'>|</a>  
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LEAGUES <span class="caret"></span></a>
+							<ul class="dropdown-menu" style='min-width: 100px;'>
+								<li><a href="#">HBL</a></li>
+								<li><a href="#">WSBL</a></li>
+								<li><a href="#">SBL</a></li>
+							</ul>
+						</li>
 					</div>
 					<div class="" id='menuFade'>
 						<div class="sprite cx-badge"></div>
@@ -217,9 +230,9 @@
 				</div>
 				<div class="row" id='social_media_container' >
 					<div class="col-lg-6 col-lg-push-3">
-						<a href="https://facebook.com/choxue"><img src="/img/facebook.png"></a>
-						<a href="https://www.instagram.com/choxue/"><img src="/img/instagram.png"></a>
-						<a href="https://www.youtube.com/c/CHOXUE%E7%90%83%E5%AD%B8/"><img src="/img/youtube.png"></a>
+						<a href="https://facebook.com/choxue"><img src="img/facebook.png"></a>
+						<a href="https://www.instagram.com/choxue/"><img src="img/instagram.png"></a>
+						<a href="https://www.youtube.com/c/CHOXUE%E7%90%83%E5%AD%B8/"><img src="img/youtube.png"></a>
 					</div>
 				</div>
 			</div>
@@ -245,10 +258,10 @@
 						<h2><?php echo L::about_title; ?></h2>
 						<p><?php echo L::about_description; ?></p>
 						<div class="row press">
-							<a href="http://www.appledaily.com.tw/realtimenews/article/new/20160611/883804/"><img src="/img/media-appledaily.jpg"></a>
-							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media-businessinsider.png"></a>
-							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="/img/media-goodtv.png"></a>
-							<a href="http://www.sportsv.net/articles/28077"><img src="/img/media-sportsv.jpg"></a>
+							<a href="http://www.appledaily.com.tw/realtimenews/article/new/20160611/883804/"><img src="img/media-appledaily.jpg"></a>
+							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="img/media-businessinsider.png"></a>
+							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="img/media-goodtv.png"></a>
+							<a href="http://www.sportsv.net/articles/28077"><img src="img/media-sportsv.jpg"></a>
 
 						</div>
 					</div>
@@ -322,7 +335,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<img src="/img/basketball.jpg">
+						<img src="img/basketball.jpg">
 					</div>
 				</div>
 			</div>
@@ -346,35 +359,35 @@
 				<div class="row">
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/cheng.jpg">
+							<img src="img/cheng.jpg">
 							<h3>Cheng</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/jero.jpg">
+							<img src="img/jero.jpg">
 							<h3>Jero</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/tmac.jpg">
+							<img src="img/tmac.jpg">
 						<h3>Tmac</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/jagger.jpg">
+							<img src="img/jagger.jpg">
 							<h3>Jagger</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/watson.jpg">
+							<img src="img/watson.jpg">
 							<h3>Watson</h3>
 							<p>Bio</p>
 
@@ -382,14 +395,14 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/bonny.jpg">
+							<img src="img/bonny.jpg">
 						<h3>Bonny</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/xiao.jpg">
+							<img src="img/xiao.jpg">
 							<h3>Xiao</h3>
 							<p>Bio</p>
 
@@ -397,7 +410,7 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/andy.jpg">
+							<img src="img/andy.jpg">
 							<h3>Andy</h3>
 							<p>Bio</p>
 
@@ -405,21 +418,21 @@
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/nobody.jpg">
+							<img src="img/nobody.jpg">
 						<h3>Marcus</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/jenny.jpg">
+							<img src="img/jenny.jpg">
 							<h3>Jenny</h3>
 							<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
 						<div class="person">
-							<img src="/img/jason.jpg">
+							<img src="img/jason.jpg">
 						<h3>Jason</h3>
 						<p>Bio</p>
 						</div>
