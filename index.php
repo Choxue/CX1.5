@@ -177,9 +177,10 @@
 						<li><a href='#schedule'><?php echo L::nav_schedule; ?></a></li>
 						<li><a href='#team'><?php echo L::nav_team; ?></a></li> 
 						<li><a href='#contact'><?php echo L::nav_contact; ?></a></li>
-						<li><a href='#'>LEAGUES > HBL</a></li>
-						<li><a href='#'>LEAGUES > WSBL</a></li>
-						<li><a href='#'>LEAGUES > SBL</a></li>
+						<li><a href='http://sports.choxue.com/leagues'>LEAGUES</a></li>
+						<li><a href='http://sports.choxue.com/leagues/4'>LEAGUES > HBL</a></li>
+						<li><a href='http://wsbl.choxue.com/'>LEAGUES > WSBL</a></li>
+						<li><a href='http://sbl.choxue.com/'>LEAGUES > SBL</a></li>
 	
 					</ul>
 				</div>
@@ -195,11 +196,11 @@
 						<a href='#contact'><?php echo L::nav_contact; ?></a>  
 						<a class='active' style='border: 1px solid transparent; cursor: none'>|</a>  
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LEAGUES <span class="caret"></span></a>
+							<a href="http://sports.choxue.com/leagues" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo L::nav_leagues; ?> <span class="caret"></span></a>
 							<ul class="dropdown-menu" style='min-width: 100px;'>
-								<li><a href="#">HBL</a></li>
-								<li><a href="#">WSBL</a></li>
-								<li><a href="#">SBL</a></li>
+								<li><a href="http://sports.choxue.com/leagues/4">HBL</a></li>
+								<li><a href="http://wsbl.choxue.com/">WSBL</a></li>
+								<li><a href="http://sbl.choxue.com/">SBL</a></li>
 							</ul>
 						</li>
 					</div>
