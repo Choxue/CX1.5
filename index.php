@@ -247,6 +247,21 @@
 		  </div>
 		</div>
 
+		<div id='laolao'>
+			<div class='container'>
+				<div class="row">
+					<div class="col-lg-8 col-lg-push-2">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-push-2">
+						<h2><?php echo L::tournament_name; ?></h2>
+						<iframe id='gspreadsheet' src='https://docs.google.com/spreadsheets/d/13Uy592BuB-NyLjXZ8N21SSFfK8sVnpTrEuo-E_V9nqY/pubhtml/sheet?headers=false&gid=0&range=a1:j51' frameborder='0'></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div id='aboutCX'>
 			<div class='container'>
 				<div class="row">

@@ -6,6 +6,7 @@ const nav_team = 'MEET US';
 const nav_schedule = 'SCHEDULE';
 const nav_contact = 'CONTACT';
 const nav_tournament_CX = 'TOURNAMENT CX';
+const nav_leagues = 'LEAGUES';
 const tagline = 'WELCOME TO CHOXUE';
 const subtagline = 'Integrating sports with the educational system<br>MAKING SPORTS EASIER';
 const watch_live_button = '▶ WATCH LIVE NOW';
@@ -39,6 +40,7 @@ const event_2_location = 'I-Shou University';
 const event_3_name = 'Jin Yin Cup';
 const event_3_date = 'August 18th - 22nd';
 const event_3_location = 'Hualien Stadium';
+const tournament_name = 'Lao Lao Cup Schedule';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }
