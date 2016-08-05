@@ -1,0 +1,534 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 500px;
+  background-color: black;
+}
+h1 {
+  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
+  color: #F4f4F4;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+h2,
+h3,
+h4 {
+  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
+}
+p {
+  font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
+  color: #555555;
+  font-size: 16px;
+}
+#masthead {
+  height: 100%;
+  background: url("/img/DSC00429_web_blur.jpg") #555555;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#laolao {
+  background: #222222;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#laolao #gspreadsheet {
+  width: 100%;
+  height: 300px;
+}
+#laolao h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #F4f4F4;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 7px solid #e74c3c;
+}
+#laolao img {
+  width: 22.5%;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  #laolao img {
+    padding: 0 1px;
+  }
+}
+#aboutCX {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#aboutCX h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #555555;
+  padding-left: 20px;
+  border-left: 7px solid #e74c3c;
+}
+#aboutCX img {
+  width: 22.5%;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  #aboutCX img {
+    padding: 0 1px;
+  }
+}
+#contact {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#contact h2 {
+  color: #555555;
+  font-size: 30px;
+  margin: 0;
+}
+#contact #separator_container {
+  padding: 20px 0;
+}
+#contact #separator_container .edge {
+  border-color: #555555;
+}
+#contact .contact_container {
+  background-color: white;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  padding: 20px 40px;
+  text-align: left;
+  height: 300px;
+}
+@media (max-width: 480px) {
+  #contact .contact_container {
+    margin-top: 10px;
+  }
+}
+#contact h3 {
+  color: #e74c3c;
+  font-size: 18px;
+}
+#contact p {
+  font-size: 15px;
+  margin: 0;
+}
+#contact input,
+#contact textarea {
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  width: 100%;
+  font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
+  outline: none;
+}
+#contact .btn {
+  width: auto;
+  display: inline-block;
+  background-color: #e74c3c;
+  color: #F4f4F4;
+  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
+  font-size: 12px;
+  padding: 10px 15px;
+}
+#team {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#team h2 {
+  color: #555555;
+  font-size: 30px;
+  margin: 0;
+}
+#team #separator_container {
+  padding: 20px 0;
+}
+#team #separator_container .edge {
+  border-color: #555555;
+}
+#team .person {
+  text-align: center;
+  transition-duration: 0.25s;
+  height: 130px;
+}
+#team .person img {
+  width: 100%;
+  border-radius: 50%;
+}
+#team .person h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+#team .person p {
+  color: #555555;
+  margin: 0;
+  display: none;
+}
+#team .person:hover {
+  transform: scale(1.3);
+  z-index: 100;
+}
+@media (min-width: 1200px) {
+  #team .col-lg-1 {
+    width: 9.09090909%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+#schedule {
+  background: #222222;
+  padding-top: 50px;
+  text-align: right;
+}
+#schedule h2 {
+  font-size: 28px;
+  letter-spacing: 0px;
+  color: #F4f4F4;
+  padding-right: 20px;
+  border-right: 7px solid #e74c3c;
+}
+#schedule img {
+  width: 100%;
+}
+#schedule .event {
+  text-align: right;
+  margin: 25px 0;
+}
+#schedule .event h3 {
+  color: #e74c3c;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+#schedule .event h4 {
+  color: #c1c1c1;
+  font-size: 14px;
+  font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
+  margin: 2px 0;
+}
+#countdown {
+  background: url("/img/countdown.jpg") #555555;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+}
+#countdown h2 {
+  color: #F4f4F4;
+  font-size: 30px;
+}
+#countdown #separator_container {
+  padding: 20px 0;
+}
+#countdown p {
+  color: #c1c1c1;
+}
+#countdown .countdown_text div {
+  display: inline-block;
+  padding: 0 15px;
+}
+#countdown .countdown_text h3,
+#countdown .countdown_text h4 {
+  color: #F4f4F4;
+}
+#countdown .countdown_text h3 {
+  margin: 0;
+  font-size: 55px;
+}
+#countdown .countdown_text h2 {
+  margin: 0;
+}
+.nav {
+  z-index: 100;
+  border-top: 0;
+  height: 100px;
+  margin-top: 30px;
+}
+.nav .internalNav {
+  float: right;
+  font-size: 15px;
+  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
+}
+.nav .internalNav > a,
+.nav .internalNav > a:hover,
+.nav .internalNav > a:focus,
+.nav .internalNav .dropdown > a {
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-top: 12px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding-bottom: 5px;
+}
+.nav .internalNav > a:hover,
+.nav .internalNav > a.active,
+.nav .internalNav .dropdown > a:hover,
+.nav .internalNav .dropdown > a.active {
+  color: #e74c3c;
+  border-bottom: 1px solid #e74c3c;
+}
+.nav .internalNav .dropdown {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+#banner {
+  text-align: center;
+  margin-top: 15%;
+}
+#banner h2 {
+  font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
+  color: #F4f4F4;
+  font-size: 20px;
+  text-shadow: 0px 0px 5px #000000;
+  line-height: 25px;
+}
+#banner #h1_container {
+  display: inline-block;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.67);
+}
+#separator_container {
+  text-align: center;
+  margin: 0 auto;
+}
+#separator_container .separator {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+#separator_container .edge {
+  width: 100px;
+  height: 1px;
+  border-bottom: 1px solid #F4f4F4;
+  margin: 0 10px;
+}
+#separator_container .center {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #e74c3c;
+}
+#social_media_container {
+  text-align: center;
+  margin-top: 20px;
+}
+#social_media_container a {
+  display: inline-block;
+}
+#social_media_container img {
+  width: 50px;
+}
+#social_media_container img:hover {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  transition-duration: 0.2s;
+}
+#button_container {
+  text-align: center;
+  margin-top: 20px;
+}
+#button_container .btn {
+  display: inline-block;
+  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+#button_container .btn:focus {
+  outline: 0;
+}
+#button_container .youtube {
+  background-color: #e74c3c;
+  border-color: #c52a1a;
+}
+#button_container .youtube:hover {
+  background-color: #c52a1a;
+}
+#button_container .schedule {
+  background-color: #F4f4F4;
+  border-color: #d2d2d2;
+}
+@media (max-width: 480px) {
+  #button_container .schedule {
+    margin-top: 10px;
+  }
+}
+#button_container .schedule:hover {
+  background-color: #e3e3e3;
+}
+#mobile_nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .cx-badge {
+    margin: 0 auto;
+  }
+  .internalNav {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 992px) {
+  h3 {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 75px;
+  }
+}
+/*********** BREAKPOINT FOR MOBILE NAVIGATION ***********/
+@media (max-width: 650px) {
+  .nav {
+    display: none;
+  }
+  #mobile_nav {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .internalNav a {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 481px) {
+  h1 {
+    font-size: 50px;
+  }
+  #banner h2 {
+    font-size: 20px;
+  }
+  #banner {
+    margin-top: 6%;
+  }
+}
+@media (max-height: 650px) {
+  #banner {
+    margin-top: 3%;
+  }
+}
+@media (max-height: 551px) {
+  #banner {
+    margin-top: 5%;
+  }
+}
+@media only screen and (orientation: landscape) {
+  #masthead {
+    min-height: 500px;
+  }
+}
+.cx-badge {
+  display: block;
+  background: url('/img/cx_logo.png');
+  width: 160px;
+  height: 100px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+}
+.nav-button {
+  display: none;
+}
+/* hide the navigation button by default */
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+  /* Navigation Button
+	-------------------------------------------------------- */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 50px;
+    height: 35px;
+    background: url('/img/menu-icon-large.png') #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+    cursor: pointer;
+    border: 0 none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 5px;
+    z-index: 999;
+    text-indent: -9999px;
+    margin-top: -50px;
+  }
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .nav-button.open {
+    background: url('/img/close-icon-large.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+  }
+  /* Navigation Bar
+	-------------------------------------------------------- */
+  body {
+    padding-top: 50px;
+  }
+  .primary-nav {
+    width: 100%;
+    float: none;
+    background-color: #535353;
+    /* change the menu color */
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 998;
+    clear: both;
+    margin-top: -50px;
+  }
+  .primary-nav li {
+    display: none;
+    width: 100%;
+    font-family: Arial;
+  }
+  .primary-nav li a {
+    display: block;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .primary-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-color: transparent;
+  }
+  .primary-nav > li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* Toggle the navigation bar open  */
+  .primary-nav.open {
+    height: auto;
+    padding-top: 50px;
+    background-color: #5E5E5E;
+  }
+  .primary-nav.open li {
+    display: block;
+    text-align: center;
+  }
+}
+/* End Mobile Styles */
