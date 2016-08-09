@@ -89,7 +89,7 @@
 						<p class='body'>Traditionally, sports games are broadcasted via TV, which has tremendous influence over exposure, scheduling and resources. Many of our sports teams suffer as a result of lack of exposure and transparency. In the internet era, we can now broadcast sports game online and provide live statistics at a unprecedented low cost and scalable way in order to create exposure for our student-athletes, enhance scheduling, and increase fan avidity and engagement in today’s mobile friendly world. </p>
 					</div>
 					<div class="col-lg-4">
-						<img src="/img/cx_recruiting.png">
+						<img src="/img/cx_recruiting1.png">
 						<h3><?php echo L::presskit_title_recruiting; ?></h3>
 						<div class='sep'></div>
 						<p class='sub'><?php echo L::presskit_subtitle_recruiting; ?></p>
