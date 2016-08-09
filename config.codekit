@@ -304,6 +304,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/media-businessnet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8412,
+		"inputAbbreviatedPath": "\/img\/media-businessnet.png",
+		"outputAbbreviatedPath": "\/img\/media-businessnet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/media-goodtv.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -93,7 +93,9 @@
 							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media-businessinsider.png"></a>
 							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="/img/media-goodtv.png"></a>
 							<a href="http://www.sportsv.net/articles/28077"><img src="/img/media-sportsv.jpg"></a>
-
+						</div>
+						<div class="row press" style='margin-top: 10px;'>
+							<a href="http://www.sportsv.net/articles/28077" style='padding-top: 10px;'><img src="/img/media-businessnet.png"></a>
 						</div>
 					</div>
 				</div>
