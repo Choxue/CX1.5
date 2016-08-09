@@ -31,6 +31,93 @@ p {
   background-size: cover;
   position: relative;
 }
+#presskit {
+  height: auto;
+}
+#presskit #masthead {
+  background: url("/img/presskit_background.jpg") #555555;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#presskit #banner {
+  margin-top: 10%;
+}
+#presskit p {
+  color: #888888;
+}
+#presskit #history {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#presskit #history img {
+  max-width: 100%;
+}
+#presskit #vision {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #CCCCCC;
+}
+#presskit #key_focuses {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eaeaea;
+}
+#presskit #key_focuses h2 {
+  text-align: center;
+}
+#presskit #key_focuses h3 {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 18px;
+}
+#presskit #key_focuses div.sep {
+  margin: 10px auto;
+  border-bottom: 1px solid #AAAAAA;
+  width: 80px;
+}
+#presskit #key_focuses p.sub {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#presskit #key_focuses p.body {
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+#presskit #key_focuses img {
+  margin: 0 auto;
+  width: 80px;
+  display: block;
+  padding: 17px;
+  border: 1px solid rgba(231, 76, 60, 0.5);
+  border-radius: 5px;
+}
+.bg_light {
+  background: #F4f4F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg_dark {
+  background: #222222;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.subheader {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #555555;
+  padding-left: 20px;
+  border-left: 7px solid #e74c3c;
+}
+h2 {
+  color: #555555;
+}
 #laolao {
   background: #222222;
   padding-top: 50px;
@@ -43,11 +130,11 @@ p {
 #laolao h2 {
   font-size: 28px;
   letter-spacing: 2px;
-  color: #F4f4F4;
+  color: #555555;
+  border-left: 7px solid #e74c3c;
   margin-top: 0;
   margin-bottom: 20px;
   padding-left: 20px;
-  border-left: 7px solid #e74c3c;
 }
 #laolao img {
   width: 22.5%;
@@ -126,7 +213,7 @@ p {
   font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
   outline: none;
 }
-#contact .btn {
+.btn {
   width: auto;
   display: inline-block;
   background-color: #e74c3c;
@@ -134,6 +221,12 @@ p {
   font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
   font-size: 12px;
   padding: 10px 15px;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:hover {
+  color: #F4f4F4;
 }
 #team {
   background: #F4f4F4;
@@ -184,6 +277,8 @@ p {
 #schedule {
   background: #222222;
   padding-top: 50px;
+  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: right;
 }
 #schedule h2 {
@@ -314,6 +409,9 @@ a {
   border-bottom: 1px solid #F4f4F4;
   margin: 0 10px;
 }
+#separator_container .edge.dark {
+  border-bottom: 1px solid #555555;
+}
 #separator_container .center {
   width: 6px;
   height: 6px;
@@ -346,9 +444,6 @@ a {
   font-size: 12px;
   padding: 10px 15px;
   margin: 0 10px;
-}
-#button_container .btn:focus {
-  outline: 0;
 }
 #button_container .youtube {
   background-color: #e74c3c;

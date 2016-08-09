@@ -41,6 +41,20 @@ const event_3_name = 'Jin Yin Cup';
 const event_3_date = 'August 18th - 22nd';
 const event_3_location = 'Hualien Stadium';
 const tournament_name = 'Lao Lao Cup Schedule';
+const presskit_title = 'PRESS KIT';
+const presskit_title_history = 'HISTORY';
+const presskit_title_vision = 'VISION';
+const presskit_title_how = 'HOW';
+const presskit_title_focus = ' KEY FOCUSES';
+const presskit_title_network = ' CX NETWORK';
+const presskit_title_recruiting = 'CX RECRUITING';
+const presskit_title_training = 'CX TRAINING';
+const presskit_button_timeline = 'SEE TIMELINE';
+const presskit_subtitle_network = 'Create exposure and transparency - shed light on our student athletes.';
+const presskit_subtitle_recruiting = 'Create exposure and transparency - shed light on our student athletes.';
+const presskit_subtitle_training = 'Create exposure and transparency - shed light on our student athletes.';
+const presskit_description_network = 'C';
+const presskit_description_history = 'The buildup and vision behind CHOXUE (CX) started long ago but was not clarified until March 2013. It’s deeply rooted in our founder Cheng Ho’s personal story from becoming an orphan in Taiwan to being adopted by his aunt and uncle to Augusta, Georgia without knowing a word of English, anyone or culture in 2000 to playing football at Harvard University and graduated in 2010. His story sparked our motivation and painted the possibilities and vision of what sport education could mean and lead to for our students across Greater China, if the right infrastructure is established. <br><br>CHOXUE’s vision was clarified and boosted by a number of members from Big Family House Church in Taipei, Taiwan beginning on March 2013, and the founding team came together gradually since October 2014 over a small 11 ping apartment. CHOXUE (CX) started as a small project that aims to documents all student-athletes’ performance via video and statistics and have evolved into a vision and mission';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }

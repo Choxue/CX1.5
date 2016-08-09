@@ -8,74 +8,14 @@
 
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
-		<meta charset="UTF-8">
 		<title><?php echo L::title; ?></title>	
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">			
-		<link rel="stylesheet" type="text/css" href="/css/style.css"/>
-		<link id="favicon" rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
-
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-
- 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
- 		<meta name="description" content="<?php echo L::about_description; ?>" />
- 		<meta name="google-site-verification" content="fM4jSTwtuLHjGABh62nMQLs9hgQ4B3bDNlsd5YhuvRg" />
- 		<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-		<script type="text/javascript">
-		  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
-		  analytics.load("MNApaC2NfkCAdEj06fXTjNmJvnr8R5eS");
-		  analytics.page()
-		  }}();
-		</script>
-
+		<?php include('common_head.php'); ?>
 	</head>
 
 	<body>
 		<div id='masthead'>
 			<div class="container" style='height: 100%;position: relative;'>
-				
-				<div id='mobile_nav'>
-					<button class="nav-button">&nbsp;</button>
-					<ul class="primary-nav">
-						<li><a href='#masthead' class='active'><?php echo L::nav_home; ?></a></li>
-						<li><a href='#aboutCX'><?php echo L::nav_about; ?></a></li>
-						<li><a href='#countdown'><?php echo L::nav_tournament_CX; ?></a></li>  
-						<li><a href='#schedule'><?php echo L::nav_schedule; ?></a></li>
-						<li><a href='#team'><?php echo L::nav_team; ?></a></li> 
-						<li><a href='#contact'><?php echo L::nav_contact; ?></a></li>
-						<li><a href='http://sports.choxue.com/leagues'>LEAGUES</a></li>
-						<li><a href='http://sports.choxue.com/leagues/4'>LEAGUES > HBL</a></li>
-						<li><a href='http://wsbl.choxue.com/'>LEAGUES > WSBL</a></li>
-						<li><a href='http://sbl.choxue.com/'>LEAGUES > SBL</a></li>
-	
-					</ul>
-				</div>
-
-
-				<div class="nav" id='desktop-navbar'>  
-					<div class="internalNav">
-						<a href='#masthead' class='active'><?php echo L::nav_home; ?></a>  
-						<a href='#aboutCX'><?php echo L::nav_about; ?></a>  
-						<a href='#countdown'><?php echo L::nav_tournament_CX; ?></a>  
-						<a href='#schedule'><?php echo L::nav_schedule; ?></a>  
-						<a href='#team'><?php echo L::nav_team; ?></a>
-						<a href='#contact'><?php echo L::nav_contact; ?></a>  
-						<a class='active' style='border: 1px solid transparent; cursor: none'>|</a>  
-						<li class="dropdown">
-							<a href="http://sports.choxue.com/leagues" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo L::nav_leagues; ?> <span class="caret"></span></a>
-							<ul class="dropdown-menu" style='min-width: 100px;'>
-								<li><a href="http://sports.choxue.com/leagues/4">HBL</a></li>
-								<li><a href="http://wsbl.choxue.com/">WSBL</a></li>
-								<li><a href="http://sbl.choxue.com/">SBL</a></li>
-							</ul>
-						</li>
-					</div>
-					<div class="" id='menuFade'>
-						<div class="sprite cx-badge"></div>
-					</div>				
-			    </div>
-
+				<?php include('common_nav.php'); ?>
 
 				<div class="row">
 					<header  class="col-lg-12" id="banner">
@@ -114,7 +54,15 @@
 		  </div>
 		</div>
 
-		<div id='laolao'>
+
+
+
+
+
+
+
+
+		<div id='laolao' style='display: none;'>
 			<div class='container'>
 				<div class="row">
 					<div class="col-lg-8 col-lg-push-2">
