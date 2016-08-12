@@ -2,7 +2,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">			
 		<link rel="stylesheet" type="text/css" href="/css/style.css"/>
 		<link id="favicon" rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
-
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
