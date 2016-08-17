@@ -95,7 +95,7 @@
 							<a href="http://www.sportsv.net/articles/28077"><img src="/img/media-sportsv.jpg"></a>
 						</div>
 						<div class="row press" style='margin-top: 10px;'>
-							<a href="http://www.sportsv.net/articles/28077" style='padding-top: 10px;'><img src="/img/media-businessnet.png"></a>
+							<a href="http://www.bnext.com.tw/article/view/id/40448" style='padding-top: 10px;'><img src="/img/media-businessnet.png"></a>
 						</div>
 					</div>
 				</div>
