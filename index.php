@@ -288,11 +288,9 @@
 					</div>
 				</div>
 				<div class="row" id="button_container">
-					<div class="col-md-6" >
-						<button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_brand_assets; ?></button>
-					</div>
-					<div class="col-md-6">
-						<button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_press_release; ?></button>
+					<div class="col-md-6 col-md-push-3">
+						<a href="<?php echo L::presskit_brand_assets_href; ?>"><button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_brand_assets; ?></button></a>
+						<a href="<?php echo L::presskit_press_release_href; ?>"><button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_press_release; ?></button></a>
 					</div>
 				</div>
 			</div>

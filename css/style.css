@@ -306,6 +306,26 @@ h2 {
   font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
   margin: 2px 0;
 }
+#pressKit {
+  background: #222222;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#pressKit #separator_container {
+  padding: 20px 0;
+}
+#pressKit #separator_container .edge {
+  border-color: #555555;
+}
+#pressKit h2 {
+  color: #F4f4F4;
+}
+@media (max-width: 480px) {
+  #pressKit {
+    display: none;
+  }
+}
 #countdown {
   background: url("/img/countdown.jpg") #555555;
   background-position: center center;
@@ -340,26 +360,6 @@ h2 {
 #countdown .countdown_text h2 {
   margin: 0;
 }
-#pressKit {
-  background: #F4f4F4;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#pressKit #separator_container {
-  padding: 20px 0;
-}
-#pressKit #separator_container .edge {
-  border-color: #555555;
-}
-
-@media (max-width: 480px) {
-  #pressKit {
-    display: none;
-  }
-}
-
 .nav {
   z-index: 100;
   border-top: 0;

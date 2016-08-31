@@ -5,8 +5,9 @@ const nav_about = '關於球學';
 const nav_team = '團隊';
 const nav_schedule = '賽事';
 const nav_contact = '聯絡我們';
+const nav_press_kit = 'PRESS KIT';
 const nav_tournament_CX = '球學高中籃球交流賽';
-const nav_leagues = '聯賽';
+const nav_leagues = '聯盟';
 const tagline = '球學';
 const subtagline = '讓運動回歸教育<br>讓運動更簡單';
 const watch_live_button = '▶ 觀看直播';
@@ -40,7 +41,12 @@ const event_2_location = '義守大學';
 const event_3_name = '菁英盃';
 const event_3_date = '8/18 - 8/22';
 const event_3_location = '花蓮縣立體育館';
-const tournament_name = '姥姥盃賽程';
+const tournament_name = '2016 高雄義大姥姥盃';
+const presskit_brand_assets = '公司概述';
+const presskit_press_release = '新聞稿';
+const presskit_title = '媒體記者區';
+const presskit_brand_assets_href = '/Press/Chinese/Choxue Overview CN.pdf';
+const presskit_press_release_href = '/Press/Chinese/Choxue Seed Round Press Release CN.pdf';
 public static function __callStatic($string, $args) {
     return vsprintf(constant("self::" . $string), $args);
 }
