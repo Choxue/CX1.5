@@ -214,6 +214,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/DSC_8371.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.85047e+06,
+		"inputAbbreviatedPath": "\/img\/DSC_8371.JPG",
+		"outputAbbreviatedPath": "\/img\/DSC_8371.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/DSC_8371.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263043,
+		"inputAbbreviatedPath": "\/img\/DSC_8371.png",
+		"outputAbbreviatedPath": "\/img\/DSC_8371.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -397,6 +419,17 @@
 		"initialSize": 193063,
 		"inputAbbreviatedPath": "\/img\/profile.jpg",
 		"outputAbbreviatedPath": "\/img\/profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28483,
+		"inputAbbreviatedPath": "\/img\/s.jpg",
+		"outputAbbreviatedPath": "\/img\/s.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -680,6 +713,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/presskit.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pressrelease.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pressrelease.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

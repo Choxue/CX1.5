@@ -13,12 +13,12 @@
 	</head>
 
 	<body id='presskit'>
-		<div id='masthead'>
+		<div id='masthead' style='min-height: 300px'>
 			<div class="container" style='height: 100%;position: relative;'>
 				<?php include('common_nav.php'); ?>
 				<div class="row">
-					<header  class="col-lg-12" id="banner">
-						<h1><?php echo L::presskit_title; ?></h1>
+					<header  class="col-lg-12" id="banner" style='margin-top: 0;'>
+						<h1><?php echo L::pressrelease_title; ?></h1>
 						<h2 class='subheader' style='display: none;'><?php echo L::subtagline; ?></h2>
 						<div id='separator_container'>
 							<span class="separator edge"></span>
@@ -31,9 +31,15 @@
 			</div>
 		</div>
 
+<div id="history">
+	<div class="container">
+		<div class="row">
+			<?php echo L::pressrelease_all; ?>
+		</div>
+	</div>
+</div>
 
 
-		<?php echo L::presskit_all; ?>
 
 
 
