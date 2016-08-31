@@ -274,6 +274,30 @@
 			</div>
 		</div>
 
+		<div id="pressKit">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2><?php echo L::presskit_title; ?></h2>
+						<div id='separator_container'>
+							<span class="separator edge"></span>
+							<span class="separator center"></span>
+							<span class="separator edge"></span>
+						</div>
+
+					</div>
+				</div>
+				<div class="row" id="button_container">
+					<div class="col-md-6" >
+						<button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_brand_assets; ?></button>
+					</div>
+					<div class="col-md-6">
+						<button type='button' class='btn btn-primary youtube' ><?php echo L::presskit_press_release; ?></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<div id="contact">
 			<div class="container">
