@@ -339,6 +339,11 @@ h2 {
   color: #F4f4F4;
   font-size: 30px;
 }
+#countdown h3 {
+  color: #F4f4F4;
+  font-size: 20px;
+  margin-top: 0;
+}
 #countdown #separator_container {
   padding: 20px 0;
 }

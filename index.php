@@ -108,6 +108,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h2><?php echo L::tournament_CX; ?></h2>
+						<h3><?php echo L::tournament_CX_subtitle; ?></h3>
 					</div>
 				</div>
 				<div class="row">
