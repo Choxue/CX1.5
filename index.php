@@ -125,19 +125,19 @@
 						</div>
 						<div class="countdown_text">
 							<div>
-								<h3 id='days'>48</h3>
+								<h3 id='days'>--</h3>
 								<h4><?php echo L::days; ?></h4>
 							</div>
 							<div>
-								<h3 id='hours'>48</h3>
+								<h3 id='hours'>--</h3>
 								<h4><?php echo L::hours; ?></h4>
 							</div>
 							<div>
-								<h3 id='minutes'>48</h3>
+								<h3 id='minutes'>--</h3>
 								<h4><?php echo L::minutes; ?></h4>
 							</div>
 							<div>
-								<h3 id='seconds'>48</h3>
+								<h3 id='seconds'>--</h3>
 								<h4><?php echo L::seconds; ?></h4>
 							</div>
 
