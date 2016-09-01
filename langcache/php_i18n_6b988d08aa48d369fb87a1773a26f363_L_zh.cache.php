@@ -6,7 +6,7 @@ const nav_team = '團隊';
 const nav_schedule = '賽事';
 const nav_contact = '聯絡我們';
 const nav_press_kit = '媒體記者區';
-const nav_tournament_CX = '球學高中籃球交流賽';
+const nav_tournament_CX = 'CX Invitational 球學邀請賽';
 const nav_leagues = '聯盟';
 const tagline = '球學';
 const subtagline = '讓運動回歸教育<br>讓運動更簡單';
@@ -16,6 +16,7 @@ const about_title = '關於球學';
 const vimeo_ID = '176729105';
 const about_description = '球學，作為一間背負使命的公司，深信運動是我們培育未來領袖的最好場域。因此，我們企圖以創造亞洲未來體育基礎的方式將運動與教育體系合為一體。我們希望透過「讓運動更簡單」、提升我們運動團隊的能力並幫助他們成功來達到目標。目前，我們是一間聚焦在體育賽事即時轉播與分析的運動傳媒公司。';
 const tournament_CX = '球學高中籃球交流賽';
+const tournament_CX_subtitle = '記者會 - 9/14 @ 2pm';
 const tournament_CX_description = '是為了改造並呈現大中華地區的學生運動員應該如何被組織，而創建與設計的。這是我們將運動與華人教育體系結為一體並展現其意涵的第一步，同時也代表「讓運動更簡單」。<br><br>從團隊建立、比賽形式、排程、轉播、媒體宣傳、學校精神到球迷參與，這是一個為了讓我們的運動團隊能夠成功，而聚集每一個人的盃賽。';
 const days = '天';
 const hours = '小時';
@@ -32,15 +33,15 @@ const placeholder_name = '名字';
 const placeholder_email = '電子郵件';
 const placeholder_message = '想說的話';
 const send_message_button = '確認送出';
-const event_1_name = '瓊斯盃 女子組';
-const event_1_date = '8/3 - 8/7';
-const event_1_location = '新莊體育館';
-const event_2_name = '姥姥盃 男子組';
-const event_2_date = '8/2 - 8/6';
-const event_2_location = '義守大學';
-const event_3_name = '菁英盃';
-const event_3_date = '8/18 - 8/22';
-const event_3_location = '花蓮縣立體育館';
+const event_1_name = '海峽杯';
+const event_1_date = '9/23 - 9/25';
+const event_1_location = '花蓮小巨蛋';
+const event_2_name = '社會甲組聯賽決賽';
+const event_2_date = '10/5 - 10/6';
+const event_2_location = '板橋體育館';
+const event_3_name = '球學高中籃球邀請賽';
+const event_3_date = '9/26 - 10/2';
+const event_3_location = '高苑/南山/三民/泰山';
 const tournament_name = '2016 高雄義大姥姥盃';
 const presskit_brand_assets = '公司概述';
 const presskit_press_release = '新聞稿';
@@ -50,12 +51,12 @@ const presskit_press_release_href = '/Press/Chinese/Choxue Seed Round Press Rele
 const presskit_all = '<div id=\'history\'>
 	<div class=\'container\'>
 		<div class=\'row\'>
-			<div class=\'col-lg-6\'>
+			<div class=\'col-lg-5\'>
 				<img src=\'/img/DSC_8371.JPG\' style=\'width: 100%;\'>
 				<br><br>
 				<img src=\'/img/s.jpg\' style=\'width: 100%;\'>
 			</div>
-			<div class=\'col-lg-5\'>
+			<div class=\'col-lg-6\'>
 				<h2 class=\'subheader\'>創辦人何凱成的個人故事是球學使命的靈感來源</h2>
 				<p>要不是運動，我現在根本不會站在這裡。
 					<br><br>我叫何凱成，在台灣長大，我一直不是一個表現太好的學生，但我喜歡運動。在我十二歲的時候，我爸爸因為肝癌過世。不久後，我媽媽因為精神分裂症而住進醫院。當時，我姊姊與我就要被送去孤兒院。
@@ -77,7 +78,7 @@ const presskit_all = '<div id=\'history\'>
 			</div>
 			<div class=\'col-lg-6\'>
 				<h2 class=\'subheader\'>我們的願景</h2>
-				<p>我們深信運動是培養未來領袖最重要的場域。因此，我們旨在透過提供科技與服務創造亞洲運動未來的基礎建設來使運動團隊能夠成功。我們期許我們的學生運動員能夠在球學建立關係網、訓練與提升他們被招募的機會</p>
+				<p>我們深信運動是培養未來領袖最重要的場域。因此，我們旨在透過提供科技與服務創造亞洲運動未來的基礎建設來使運動團隊能夠成功。我們期許我們的學生運動員能夠在球學建立關係網、訓練與提升他們被招募的機會。</p>
 			</div>
 		</div>
 	</div>
@@ -99,6 +100,7 @@ const presskit_all = '<div id=\'history\'>
 公司命名「球學」字面上是「球」與「學」，象徵體育與教育的結合。它是「求學」的同音異義詞，「追求學問」。創始團隊相信這是最適合公司的名次因為其使命是「讓運動成為教育的一環」。「球學」是由台灣台北Big Family家教會的陳信生牧師所命名。</p>
 						</div>
 		</div>
+
 		<div class=\'row\' style=\'\'>
 			<div class=\'col-lg-3\'>
 				<h3>2013</h3>
@@ -134,10 +136,93 @@ const presskit_all = '<div id=\'history\'>
 				<ul>
 					<li>二月 - 募得種子資金(照片稍後釋出)。</li>
 					<li>六月- 轉播超過兩百場高中籃球賽並與Yahoo！台灣與鬥魚電視合作。</li>
-					<li>七月 - 提供第三十八屆威廉瓊斯盃、女子超級籃球聯賽與超級籃球聯賽網站與官方數據。</li>
+					<li>七月 - 為第三十八屆威廉瓊斯盃、女子超級籃球聯賽與超級籃球聯賽提供網站與官方數據。</li>
 				</ul>
 			</div>
 		</div>
+
+
+		<div class=\'row\' style=\'margin-bottom: 20px;\'>
+			<div class=\'col-lg-8 col-lg-push-2\'>
+				<div id=\'myCarousel\' class=\'carousel slide\' data-ride=\'carousel\'>
+				  <ol class=\'carousel-indicators\'>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'0\' class=\'active\'></li>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'1\'></li>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'2\'></li>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'3\'></li>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'4\'></li>
+				    <li data-target=\'#myCarousel\' data-slide-to=\'5\'></li>
+				  </ol>
+
+				  <div class=\'carousel-inner\' role=\'listbox\'>
+				    <div class=\'item active\'>
+				    	<img src=\'/img/timeline photos/1.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2013 三月</span>球學(CX)創立。</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\'>
+				    	<img src=\'/img/timeline photos/3.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2014 七月</span>透過影片與數據分析，幫助中華隊在國際籃聯亞洲盃籃球賽(舊亞錦賽)獲得銀牌 (台灣籃球史創舉)。</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\'>
+				    	<img src=\'/img/timeline photos/4.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2014 九月</span>紐約上城私立寄宿學校Hoosac School，提供18歲的三民家商學生運動員陳柏良三萬八千美金的獎學金以畢業生身分就讀。</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\'>
+				    	<img src=\'/img/timeline photos/tas.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2015 一月</span>透過影片與數據分析，松山高中重返高中籃球聯賽(HBL)冠軍寶座，台北美國學校贏得20年來首座東南亞校際聯盟(IASAS)冠軍。</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\'>
+				    	<img src=\'/img/timeline photos/songshan.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2015 三月</span>透過影片與數據分析，松山高中重返高中籃球聯賽(HBL)冠軍寶座，台北美國學校贏得20年來首座東南亞校際聯盟(IASAS)冠軍。</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\'>
+				    	<img src=\'/img/timeline photos/sbsl.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2015 九月</span>轉播台灣的職業籃球聯盟「超級籃球聯賽夏季聯盟(SBSL)」，並釋出球學網站第二版。與上海聚力傳媒技術有限公司與Yahoo！台灣成為大中華地區露出合作夥伴</p>
+				    	</div>
+				    </div>
+
+				    <div class=\'item\' style=\'display: none;\'>
+				    	<img src=\'/img/timeline photos/seed round.jpg\'>
+				    	<div class=\'caption\'>
+				    		<p><span class=\'highlight bold\'>2016 二月</span>募得種子資金。</p>
+				    	</div>
+				    </div>
+
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class=\'left carousel-control\' href=\'#myCarousel\' role=\'button\' data-slide=\'prev\' style=\'background: none;\'>
+				    <span class=\'glyphicon glyphicon-chevron-left\' aria-hidden=\'true\'></span>
+				    <span class=\'sr-only\'>Previous</span>
+				  </a>
+				  <a class=\'right carousel-control\' href=\'#myCarousel\' role=\'button\' data-slide=\'next\' style=\'background: none;\'>
+				    <span class=\'glyphicon glyphicon-chevron-right\' aria-hidden=\'true\'></span>
+				    <span class=\'sr-only\'>Next</span>
+				  </a>
+				</div>
+
+			</div>
+		</div>
+
+
+
+	</div>
 	</div>
 ';
 const pressrelease_title = '新聞稿';
@@ -165,10 +250,10 @@ const pressrelease_all = '
 
 				公司命名「球學」字面上是「球」與「學」，象徵體育與教育的結合。它是「求學」的同音異義詞，「追求學問」。創始團隊相信這是最適合公司的名次因為其使命是「讓運動成為教育的一環」。「球學」是由台灣台北Big Family家教會的陳信生牧師所命名。<br><br>
 
-				<strong>Media Contact</strong>: <br>
-				Name: Andy Tsai<br>
-				Phone: +886.978.827.686<br>
-				Email: <a href=mailto:andy@choxue.com>andy@choxue.com</a>
+				<strong>媒體聯絡</strong>: <br>
+				名字: Andy Tsai<br>
+				電話: +886.978.827.686<br>
+				電子郵件: <a href=mailto:andy@choxue.com>andy@choxue.com</a>
 
 			</div>
 ';

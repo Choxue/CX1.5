@@ -94,14 +94,7 @@ p {
 			width:90%;
 			margin:0 auto;
 		}
-		img {
-			margin: 0 auto;
-			width:80px;
-			display: block;
-			padding: 17px;
-			border: 1px solid rgba(231, 76, 60, 0.5);
-			border-radius: 5px;
-		}
+
 	}
 
 }
@@ -325,9 +318,51 @@ h2 {
   #pressKit {
     display: none;
   }
+  .carousel-indicators {
+      bottom: -40px;
+  }
 }
 
+.carousel-indicators .active {
+	background-color: @CX_orange;
+}
+.carousel-indicators li {
+	border-color: @CX_orange;
+}
 
+@media screen and (min-width: 768px) {
+	.carousel-indicators {
+	    bottom: -35px;
+	}
+}
+
+.caption {
+	padding:7px 40px;
+	background: @off_black;
+	p {
+		color: @CX_white !important;
+		margin-bottom: 0;
+	}
+	min-height:80px;
+}
+
+.highlight {
+	color: @CX_white;
+	background-color: #e74c3c;
+	padding: 1px 10px;
+	margin-right:10px;
+}
+
+em {
+	color: @CX_white;
+	background-color: #e74c3c;
+	padding: 1px 10px;
+	margin-right:10px;
+}
+
+.bold {
+	font-weight: bold;
+}
 
 #countdown {
 	background: url("/img/countdown.jpg") #555555;
