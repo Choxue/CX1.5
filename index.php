@@ -301,7 +301,7 @@
 					</div>
 					<div class="col-lg-6 col-lg-push-1">
 						<div class='contact_container'>
-							<form action="https://formspree.io/contact@choxue.com" method="POST">
+							<form action="https://formspree.io/media@choxue.com" method="POST">
 								<input type="text" name="name" placeholder=<?php echo L::placeholder_name; ?> style='height:30px;'><br>
 							    <input type="email" name="_replyto" placeholder=<?php echo L::placeholder_email; ?> style='height: 30px'><br>
 							    <textarea name="text" cols="40" rows="5" placeholder=<?php echo L::placeholder_message; ?> style='height: 90px'></textarea>
