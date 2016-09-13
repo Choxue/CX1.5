@@ -429,16 +429,16 @@
 				$(".nav-button").click(function () {
 					$(".nav-button,.primary-nav").toggleClass("open");
 				});
-				$("#days").countdown("2016/09/14 14:00:00", function(event) {
+				$("#days").countdown("2016/09/26 14:00:00", function(event) {
 				  $(this).text(event.strftime('%D'));
 				});
-				$("#hours").countdown("2016/09/14 14:00:00", function(event) {
+				$("#hours").countdown("2016/09/26 14:00:00", function(event) {
 				  $(this).text(event.strftime('%H'));
 				});
-				$("#minutes").countdown("2016/09/14 14:00:00", function(event) {
+				$("#minutes").countdown("2016/09/26 14:00:00", function(event) {
 				  $(this).text(event.strftime('%M'));
 				});
-				$("#seconds").countdown("2016/09/14 14:00:00", function(event) {
+				$("#seconds").countdown("2016/09/26 14:00:00", function(event) {
 				  $(this).text(event.strftime('%S'));
 				});
 
