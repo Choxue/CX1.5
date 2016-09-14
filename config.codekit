@@ -148,6 +148,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/CX_teamphoto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.25296e+06,
+		"inputAbbreviatedPath": "\/img\/CX_teamphoto.jpg",
+		"outputAbbreviatedPath": "\/img\/CX_teamphoto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cx_training.png": {
 		"fileType": 32768,
 		"ignore": 0,

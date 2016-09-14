@@ -23,7 +23,13 @@
 			<a href='/#countdown'><?php echo L::nav_tournament_CX; ?></a>  
 			<a href='/#schedule'><?php echo L::nav_schedule; ?></a>  
 			<a href='/#team'><?php echo L::nav_team; ?></a>
-			<a href='/presskit'><?php echo L::nav_press_kit; ?></a> 
+			<li class="dropdown">
+				<a href="/presskit" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo L::nav_press; ?> <span class="caret"></span></a>
+				<ul class="dropdown-menu" style='min-width: 100px;'>
+					<li><a href="/presskit"><?php echo L::nav_press_kit; ?></a></li>
+					<li><a href="/pressrelease"><?php echo L::nav_press_release; ?></a></li>
+				</ul>
+			</li>
 			<a href='/#contact'><?php echo L::nav_contact; ?></a>  
 			<a class='active' style='border: 1px solid transparent; cursor: none'>|</a>  
 			<li class="dropdown">
