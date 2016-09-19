@@ -45,4 +45,3 @@
 			<div class="sprite cx-badge"></div>
 		</div>				
     </div>
-
