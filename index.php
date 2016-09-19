@@ -8,6 +8,7 @@
 
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
+		<script src="https://www.youtube.com/iframe_api"></script>
 		<title><?php echo L::title; ?></title>	
 		<?php include('common_head.php'); ?>
 	</head>
@@ -49,7 +50,7 @@
 		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
-		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/YFdkBaCvLog?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
+		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/uC7yQGvAYEg?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
 		    </div>
 		  </div>
 		</div>
@@ -108,15 +109,17 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h2><?php echo L::tournament_CX; ?></h2>
-						<h3><?php echo L::tournament_CX_subtitle; ?></h3>
+						<h3 class="hideOnTimesUp"><?php echo L::tournament_CX_subtitle; ?></h3>
 					</div>
 				</div>
+				<div id="live-game"></div>
+				<!-- <iframe id="live-game" width="560" height="315" src="https://www.youtube.com/embed/uC7yQGvAYEg" frameborder="0" allowfullscreen></iframe> -->
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row hideOnTimesUp">
 					<div class="col-lg-12">
 						<div id='separator_container'>
 							<span class="separator edge"></span>
@@ -412,6 +415,8 @@
 		}
 
 			$(document).ready(function() {
+				var player;
+
 				$('.internalNav a').click(function(){
 					$('html, body').animate({
 				        scrollTop: $( $(this).attr('href') ).offset().top
@@ -429,6 +434,9 @@
 				$(".nav-button").click(function () {
 					$(".nav-button,.primary-nav").toggleClass("open");
 				});
+
+				$('#live-game').hide();
+
 				$("#days").countdown("2016/09/26 14:00:00", function(event) {
 				  $(this).text(event.strftime('%D'));
 				});
@@ -439,14 +447,46 @@
 				  $(this).text(event.strftime('%M'));
 				});
 				$("#seconds").countdown("2016/09/26 14:00:00", function(event) {
+					if(event.type === "finish") {
+						$("#live-game").show();
+						$(".hideOnTimesUp").hide();
+						onYouTubeIframeAPIReady();
+					}
 				  $(this).text(event.strftime('%S'));
-				});
+				}).on('finish.countdown', function(){
+						$("#live-game").show();
+						$(".hideOnTimesUp").hide();
+						onYouTubeIframeAPIReady();
+					});
 
 				$('.stream_modal').on('hidden.bs.modal', function () {
 				    $(".stream_modal iframe").attr("src", $(".stream_modal iframe").attr("src"));
 				});
 
-			});		
+			});
+
+			function onYouTubeIframeAPIReady() {
+			  var player;
+			  player = new YT.Player('live-game', {
+			    videoId: 'uC7yQGvAYEg',
+			    width: 560,
+			    height: 316,
+			    playerVars: {
+			      autoplay: 1,
+			      controls: 1,
+			      showinfo: 0,
+			      loop: 1,
+			      iv_load_policy: 3,  // Hide the Video Annotations
+			      autohide: 0         // Hide video controls when playing
+			    },
+			    events: {
+			      onReady: function(e) {
+			        e.target.mute();
+			      }
+			    }
+			  });
+			}
+
 		
 		</script>
 	</body>
