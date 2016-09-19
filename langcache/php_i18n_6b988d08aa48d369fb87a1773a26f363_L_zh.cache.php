@@ -18,7 +18,7 @@ const about_title = '關於球學';
 const vimeo_ID = '176729105';
 const about_description = '球學，作為一間背負使命的公司，深信運動是我們培育未來領袖的最好場域。因此，我們企圖以創造亞洲未來體育基礎的方式將運動與教育體系合為一體。我們希望透過「讓運動更簡單」、提升我們運動團隊的能力並幫助他們成功來達到目標。目前，我們是一間聚焦在體育賽事即時轉播與分析的運動傳媒公司。';
 const tournament_CX = '球學高中籃球交流賽';
-const tournament_CX_subtitle = '記者會 - 9/14 @ 2pm';
+const tournament_CX_subtitle = '記者會 - 9/26 @ 2pm';
 const tournament_CX_description = '是為了改造並呈現大中華地區的學生運動員應該如何被組織，而創建與設計的。這是我們將運動與華人教育體系結為一體並展現其意涵的第一步，同時也代表「讓運動更簡單」。<br><br>從團隊建立、比賽形式、排程、轉播、媒體宣傳、學校精神到球迷參與，這是一個為了讓我們的運動團隊能夠成功，而聚集每一個人的盃賽。';
 const days = '天';
 const hours = '小時';
@@ -161,7 +161,7 @@ const presskit_all = '
 
 				  <div class=\'carousel-inner\' role=\'listbox\'>
 				    <div class=\'item active\'>
-				    	<img src=\'/img/timeline photos/1.jpg\'>
+				    	<img src=\'CX_teamphoto.jpg\'>
 				    	<div class=\'caption\'>
 				    		<p><span class=\'highlight bold\'>2013 三月</span>球學(CX)創立。</p>
 				    	</div>

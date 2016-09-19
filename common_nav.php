@@ -7,6 +7,7 @@
 			<li><a href='/#schedule'><?php echo L::nav_schedule; ?></a></li>
 			<li><a href='/#team'><?php echo L::nav_team; ?></a></li> 
 			<li><a href='/presskit'><?php echo L::nav_press_kit; ?></a></li> 
+			<li><a href='/pressrelease'><?php echo L::nav_press_release; ?></a></li> 
 			<li><a href='/#contact'><?php echo L::nav_contact; ?></a></li>
 			<li><a href='http://sports.choxue.com/leagues'>LEAGUES</a></li>
 			<li><a href='http://sports.choxue.com/leagues/4'>LEAGUES > HBL</a></li>
