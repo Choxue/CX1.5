@@ -13,7 +13,6 @@
 			<li><a href='http://sports.choxue.com/leagues/4'>LEAGUES > HBL</a></li>
 			<li><a href='http://wsbl.choxue.com/'>LEAGUES > WSBL</a></li>
 			<li><a href='http://sbl.choxue.com/'>LEAGUES > SBL</a></li>
-
 		</ul>
 	</div>
 	
