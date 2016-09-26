@@ -34,7 +34,7 @@
 				<div class="row" id='button_container' >
 					<div class="col-lg-6 col-lg-push-3">
 							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=".stream_modal"><?php echo L::watch_live_button; ?></button>
-							<!--<button type='button' class='btn btn-secondary schedule'><?php echo L::schedule_button; ?></button>-->
+							<a href="http://cxi.choxue.com/" type='button' class='event'><?php echo L::schedule_button; ?></a>
 					</div>
 				</div>
 				<div class="row" id='social_media_container' >
@@ -50,7 +50,7 @@
 		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
-		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/KkauSxhGZkA?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
+		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/VRHHb3A7F_E?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
 		    </div>
 		  </div>
 		</div>
@@ -113,7 +113,6 @@
 					</div>
 				</div>
 				<div id="live-game"></div>
-				<!-- <iframe id="live-game" width="560" height="315" src="https://www.youtube.com/embed/KkauSxhGZkA" frameborder="0" allowfullscreen></iframe> -->
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
@@ -468,7 +467,7 @@
 			function onYouTubeIframeAPIReady() {
 			  var player;
 			  player = new YT.Player('live-game', {
-			    videoId: 'KkauSxhGZkA',
+			    videoId: 'VRHHb3A7F_E',
 			    width: 560,
 			    height: 316,
 			    playerVars: {
