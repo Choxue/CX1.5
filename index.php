@@ -5,7 +5,7 @@
 		$i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'zh');
 		$i18n->init();
 	?>
-
+	<!--  -->
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
 		<script src="https://www.youtube.com/iframe_api"></script>
