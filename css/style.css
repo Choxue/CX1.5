@@ -54,6 +54,15 @@ p {
 #presskit #history img {
   max-width: 100%;
 }
+#presskit #history p {
+    color: rgba( 85, 85, 85, .9);
+    font-size: 19px;
+    margin-bottom: 30px;
+    letter-spacing: .05px;
+}
+#presskit #history p:first-child {
+    margin-top: 45px;
+}
 #presskit #vision {
   background: #F4f4F4;
   padding-top: 50px;
