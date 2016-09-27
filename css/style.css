@@ -51,6 +51,10 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+#presskit #history h2.subheader {
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
 #presskit #history img {
   max-width: 100%;
 }
@@ -60,8 +64,8 @@ p {
     margin-bottom: 30px;
     letter-spacing: .05px;
 }
-#presskit #history p:first-child {
-    margin-top: 45px;
+#presskit #history a:first-child {
+    font-style: italic;
 }
 #presskit #vision {
   background: #F4f4F4;
