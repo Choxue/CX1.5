@@ -8,7 +8,7 @@
 
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
-		<title><?php echo L::title; ?></title>	
+		<title><?php echo L::title; ?></title>
 		<?php include('common_head.php'); ?>
 	</head>
 
@@ -32,9 +32,7 @@
 		</div>
 
 
-
 		<?php echo L::presskit_all; ?>
-
 
 
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
@@ -167,8 +165,8 @@
 				    $(".stream_modal iframe").attr("src", $(".stream_modal iframe").attr("src"));
 				});
 
-			});		
-		
+			});
+
 		</script>
 	</body>
 </html>
