@@ -51,7 +51,7 @@
 		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
-		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/VRHHb3A7F_E?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
+		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/qbcIzL_2wDI?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
 		    </div>
 		  </div>
 		</div>
@@ -437,16 +437,16 @@
 
 				$('#live-game').hide();
 
-				$("#days").countdown("2016/09/28 14:30:00", function(event) {
+				$("#days").countdown("2016/09/29 13:30:00", function(event) {
 				  $(this).text(event.strftime('%D'));
 				});
-				$("#hours").countdown("2016/09/28 14:30:00", function(event) {
+				$("#hours").countdown("2016/09/29 13:30:00", function(event) {
 				  $(this).text(event.strftime('%H'));
 				});
-				$("#minutes").countdown("2016/09/28 14:30:00", function(event) {
+				$("#minutes").countdown("2016/09/29 13:30:00", function(event) {
 				  $(this).text(event.strftime('%M'));
 				});
-				$("#seconds").countdown("2016/09/28 14:30:00", function(event) {
+				$("#seconds").countdown("2016/09/29 13:30:00", function(event) {
 					if(event.type === "finish") {
 						$("#live-game").show();
 						$(".hideOnTimesUp").hide();
@@ -468,7 +468,7 @@
 			function onYouTubeIframeAPIReady() {
 			  var player;
 			  player = new YT.Player('live-game', {
-			    videoId: 'VRHHb3A7F_E',
+			    videoId: 'qbcIzL_2wDI',
 			    width: 560,
 			    height: 316,
 			    playerVars: {
