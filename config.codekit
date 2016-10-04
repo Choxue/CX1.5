@@ -692,15 +692,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/php-i18n\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/php-i18n\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/php-i18n\/langcache\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
