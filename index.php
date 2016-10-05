@@ -51,7 +51,7 @@
 		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
-		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/f_VNeVlvRbA?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
+		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/ubW1Uw0BO6Q?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
 		    </div>
 		  </div>
 		</div>
@@ -468,7 +468,7 @@
 			function onYouTubeIframeAPIReady() {
 			  var player;
 			  player = new YT.Player('live-game', {
-			    videoId: 'f_VNeVlvRbA',
+			    videoId: 'ubW1Uw0BO6Q',
 			    width: 560,
 			    height: 316,
 			    playerVars: {
