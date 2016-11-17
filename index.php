@@ -129,36 +129,36 @@
 				</div>
 				<div class="row" style='margin-top:60px;'>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://www.nbcnews.com/news/asian-america/harvard-grad-cheng-ho-wants-fix-taiwan-s-high-school-n656406"><img src="/img/media_logos/nbc_news.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://www.nbcnews.com/news/asian-america/harvard-grad-cheng-ho-wants-fix-taiwan-s-high-school-n656406"><img src="/img/media_logos/nbc_news.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://www.forbes.com/sites/ralphjennings/2016/09/13/weary-of-over-studious-asians-this-taiwanese-ceo-tempts-them-with-sports/"><img src="/img/media_logos/forbes.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://www.forbes.com/sites/ralphjennings/2016/09/13/weary-of-over-studious-asians-this-taiwanese-ceo-tempts-them-with-sports/"><img src="/img/media_logos/forbes.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media_logos/business_insider.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media_logos/business_insider.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://chronicle.augusta.com/sports/college/2016-10-22/michaux-former-evans-player-cheng-ho-trying-bridge-gap-between-sports"><img src="/img/media_logos/augusta_chronicle.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://chronicle.augusta.com/sports/college/2016-10-22/michaux-former-evans-player-cheng-ho-trying-bridge-gap-between-sports"><img src="/img/media_logos/augusta_chronicle.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://tv.cctv.com/2016/09/29/VIDE4n30insuK1TZQnwptzxk160929.shtml"><img src="/img/media_logos/cctv5.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://tv.cctv.com/2016/09/29/VIDE4n30insuK1TZQnwptzxk160929.shtml"><img src="/img/media_logos/cctv5.png" alt="" class='media_logo'></a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://www.businesstoday.com.tw/article-content-80417-159089"><img src="/img/media_logos/business_today.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://www.businesstoday.com.tw/article-content-80417-159089"><img src="/img/media_logos/business_today.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://yzzk.com/cfm/content_archive.cfm?id=1476934094031&docissue=2016-43"><img src="/img/media_logos/yazhouzhoukan.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://yzzk.com/cfm/content_archive.cfm?id=1476934094031&docissue=2016-43"><img src="/img/media_logos/yazhouzhoukan.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="http://www.bnext.com.tw/article/41351/choxue-cheng-ho-got-seed-fuding-from-joseph-tsai"><img src="/img/media_logos/business_next.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="http://www.bnext.com.tw/article/41351/choxue-cheng-ho-got-seed-fuding-from-joseph-tsai"><img src="/img/media_logos/business_next.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="https://www.youtube.com/watch?v=VEj8qLcAHME&t=1790s"><img src="/img/media_logos/goodtv.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="https://www.youtube.com/watch?v=VEj8qLcAHME&t=1790s"><img src="/img/media_logos/goodtv.png" alt="" class='media_logo'></a>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
-						<a href="https://www.youtube.com/watch?v=ZFCvIXmgER0"><img src="/img/media_logos/tvbs_.png" alt="" class='media_logo'></a>
+						<a target="_blank" href="https://www.youtube.com/watch?v=ZFCvIXmgER0"><img src="/img/media_logos/tvbs_.png" alt="" class='media_logo'></a>
 					</div>
 				</div>
 			</div>
@@ -179,7 +179,7 @@
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
 						<div id="button_container">
-							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href=""><?php echo L::tournament_CX; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://cxi.choxue.com/"><?php echo L::tournament_CX; ?></a></button>
 						</div>
 					</div>
 				</div>
