@@ -9,6 +9,7 @@
 			<li><a href='/#countdown'><?php echo L::nav_tournament_CX; ?></a></li>  
 			<li><a href='/#team'><?php echo L::nav_team; ?></a></li> 
 			<li><a href='/#contact'><?php echo L::nav_contact; ?></a></li>
+			<li><a href='/orangearmy'><?php echo L::orange_army_name; ?></a></li>
 			<li><a href='http://sports.choxue.com/leagues'>LEAGUES</a></li>
 			<li><a href='http://sports.choxue.com/leagues/4'>LEAGUES > HBL</a></li>
 			<li><a href='http://wsbl.choxue.com/'>LEAGUES > WSBL</a></li>
@@ -32,6 +33,7 @@
 			<a href='/#countdown'><?php echo L::nav_tournament_CX; ?></a>  
 			<a href='/#team'><?php echo L::nav_team; ?></a>
 			<a href='/#contact'><?php echo L::nav_contact; ?></a>  
+			<a href='/orangearmy'><?php echo L::orange_army_name; ?></a>  
 			<a class='active' style='border: 1px solid transparent; cursor: none'>|</a>  
 			<li class="dropdown">
 				<a href="http://sports.choxue.com/leagues" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo L::nav_leagues; ?> <span class="caret"></span></a>

@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
 	"\/common_head.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -784,6 +790,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_zh.cache.php",
+		"oF": 0
+		},
+	"\/orangearmy.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/orangearmy.php",
 		"oF": 0
 		},
 	"\/php-i18n\/.gitignore": {

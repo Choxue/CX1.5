@@ -126,12 +126,13 @@ h2 {
 	color: @off_black;
 }
 
+#gspreadsheet {
+	width: 100%;
+	height: 300px;
+}
+
 #laolao {
 	.bg_dark;
-	#gspreadsheet {
-		width: 100%;
-		height: 300px;
-	}
 	h2 {
 		.subheader;
 		margin-top: 0;
@@ -163,6 +164,26 @@ h2 {
 	}
 }
 
+.contact_container {
+	background-color: white;
+	border: 1px solid @CX_white - #222222;
+	border-radius: 5px;
+	padding: 20px 40px;
+	text-align: left;
+	height:300px;
+	@media (max-width: 480px) {
+		margin-top:10px;
+	}
+	input, textarea {
+		margin: 10px 0;
+		border: none;
+		border-bottom: 1px solid @CX_white - #222222;
+		width: 100%;
+		font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
+		outline: none;
+	}
+}
+
 #contact {
 	.bg_light;
 	text-align:center;
@@ -177,17 +198,7 @@ h2 {
 			border-color: @off_black;
 		}
 	}
-	.contact_container {
-		background-color: white;
-		border: 1px solid @CX_white - #222222;
-		border-radius: 5px;
-		padding: 20px 40px;
-		text-align: left;
-		height:300px;
-		@media (max-width: 480px) {
-			margin-top:10px;
-		}
-	}
+
 	h3 {
 		color: @CX_orange;
 		font-size: 18px;
@@ -196,14 +207,7 @@ h2 {
 		font-size:15px;
 		margin: 0;
 	}
-	input, textarea {
-		margin: 10px 0;
-		border: none;
-		border-bottom: 1px solid @CX_white - #222222;
-		width: 100%;
-		font-family: Source Sans Pro, 微軟正黑體, Microsoft JhengHei;
-		outline: none;
-	}
+
 
 
 }
@@ -623,16 +627,6 @@ a {
 
 }
 
-/*********** BREAKPOINT FOR MOBILE NAVIGATION ***********/
-@media (max-width: 650px) {
-	.nav {
-		display:none;
-	}
-	#mobile_nav {
-		display:block;
-	}
-
-}
 
 @media (max-width: 800px) {
 .internalNav a {
@@ -693,12 +687,27 @@ margin-right: 8px;
 
 
 
-
+@media (max-width: 1200px) {
+	.internalNav {
+	margin-top: 50px;
+	text-align:center;
+	}
+	.cx-badge {
+	margin:0 auto;
+	}
+}
 
 
 .nav-button { display: none; } /* hide the navigation button by default */
 
 @media only screen and (min-width: 0px) and (max-width: 650px) {
+
+.nav {
+	display:none;
+}
+#mobile_nav {
+	display:block;
+}
 
 	/* Navigation Button
 	-------------------------------------------------------- */
@@ -793,3 +802,21 @@ margin-right: 8px;
 
 
 } /* End Mobile Styles */
+
+.bold {
+	font-weight: bold;
+}
+
+.cx_orange {
+	color: @CX_orange;
+}
+
+.orangearmy {
+	.metadata {
+		vertical-align: middle;
+	}
+	.profile_pic { 
+		text-align: right;
+	}
+
+}
