@@ -9,7 +9,7 @@
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	
 	<head>
-		<script src="https://www.youtube.com/iframe_api"></script>
+		<!-- <script src="https://www.youtube.com/iframe_api"></script> -->
 		<title><?php echo L::title; ?></title>	
 		<?php include('common_head.php'); ?>
 	</head>
@@ -32,12 +32,13 @@
 						<h2><?php echo L::subtagline; ?></h2>
 					</header>
 				</div>
+				<!--
 				<div class="row" id='button_container' >
 					<div class="col-lg-6 col-lg-push-3">
 							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=".stream_modal"><?php echo L::watch_live_button; ?></button>
 							<a href="http://cxi.choxue.com/" type='button' class='event'><?php echo L::schedule_button; ?></a>
 					</div>
-				</div>
+				</div>-->
 				<div class="row" id='social_media_container' >
 					<div class="col-lg-6 col-lg-push-3">
 						<a href="https://facebook.com/choxue"><img src="/img/facebook.png"></a>
@@ -51,7 +52,9 @@
 		<div class="modal fade stream_modal" tabindex="-1" role="dialog" aria-labelledby="streamModal">
 		  <div class="modal-dialog modal-lg" role="document">
 		    <div class="modal-content">
-		  		<div class='embed-container'><iframe src='https://www.youtube.com/embed/ubW1Uw0BO6Q?enablejsapi=1' frameborder='0' allowfullscreen></iframe></div>
+		  		<div class='embed-container'>
+		  			<!-- <iframe src='https://www.youtube.com/embed/ubW1Uw0BO6Q?enablejsapi=1' frameborder='0' allowfullscreen></iframe> -->
+		  		</div>
 		    </div>
 		  </div>
 		</div>
@@ -90,19 +93,77 @@
 					<div class="col-lg-5">
 						<h2><?php echo L::about_title; ?></h2>
 						<p><?php echo L::about_description; ?></p>
-						<div class="row press">
-							<a href="http://www.appledaily.com.tw/realtimenews/article/new/20160611/883804/"><img src="/img/media-appledaily.jpg"></a>
-							<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media-businessinsider.png"></a>
-							<a href="http://goodtv.tv/uploads/2016/04/2600e03dde6cabca.pdf"><img src="/img/media-goodtv.png"></a>
-							<a href="http://www.sportsv.net/articles/28077"><img src="/img/media-sportsv.jpg"></a>
-						</div>
-						<div class="row press" style='margin-top: 10px;'>
-							<a href="http://www.bnext.com.tw/article/view/id/40448" style='padding-top: 10px;'><img src="/img/media-businessnet.png"></a>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+
+
+		<div id="featured">
+			<div class="container">
+				<div class="row" id='headroom'>
+					<div class="col-lg-12">
+						<h2></h2>
+					</div>
+				</div>
+				<!-- <div id="live-game" style=''></div> -->
+				<div class="row">
+					<div class="col-lg-8 col-lg-push-2 quote">
+						<h3><i class="fa fa-quote-left" aria-hidden="true"></i> <?php echo L::featured_joe_quote; ?> <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+						<h4 class='name'><?php echo L::featured_joe_name; ?></h4>
+						<h4 class='name position'><?php echo L::featured_joe_title; ?></h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-sm-6 col-lg-push-1 quote">
+						<h3><i class="fa fa-quote-left" aria-hidden="true"></i> <?php echo L::featured_blackie_quote; ?> <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+						<h4 class='name'><?php echo L::featured_blackie_name; ?></h4>
+						<h4 class='name position'><?php echo L::featured_blackie_title; ?></h4>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-6 col-lg-push-1 quote">
+						<h3><i class="fa fa-quote-left" aria-hidden="true"></i> <?php echo L::featured_richard_quote; ?> <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+						<h4 class='name'><?php echo L::featured_richard_name; ?></h4>
+						<h4 class='name position'><?php echo L::featured_richard_title; ?></h4>
+					</div>
+				</div>
+				<div class="row" style='margin-top:60px;'>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://www.nbcnews.com/news/asian-america/harvard-grad-cheng-ho-wants-fix-taiwan-s-high-school-n656406"><img src="/img/media_logos/nbc_news.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://www.forbes.com/sites/ralphjennings/2016/09/13/weary-of-over-studious-asians-this-taiwanese-ceo-tempts-them-with-sports/"><img src="/img/media_logos/forbes.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://www.businessinsider.com/choxue-brings-sports-talent-to-china-2015-2"><img src="/img/media_logos/business_insider.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://chronicle.augusta.com/sports/college/2016-10-22/michaux-former-evans-player-cheng-ho-trying-bridge-gap-between-sports"><img src="/img/media_logos/augusta_chronicle.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://tv.cctv.com/2016/09/29/VIDE4n30insuK1TZQnwptzxk160929.shtml"><img src="/img/media_logos/cctv5.png" alt="" class='media_logo'></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://www.businesstoday.com.tw/article-content-80417-159089"><img src="/img/media_logos/business_today.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://yzzk.com/cfm/content_archive.cfm?id=1476934094031&docissue=2016-43"><img src="/img/media_logos/yazhouzhoukan.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="http://www.bnext.com.tw/article/41351/choxue-cheng-ho-got-seed-fuding-from-joseph-tsai"><img src="/img/media_logos/business_next.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="https://www.youtube.com/watch?v=VEj8qLcAHME&t=1790s"><img src="/img/media_logos/goodtv.png" alt="" class='media_logo'></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
+						<a href="https://www.youtube.com/watch?v=ZFCvIXmgER0"><img src="/img/media_logos/tvbs_.png" alt="" class='media_logo'></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 
 		<div id="countdown">
@@ -113,13 +174,16 @@
 						<h3 class="hideOnTimesUp"><?php echo L::tournament_CX_subtitle; ?></h3>
 					</div>
 				</div>
-				<div id="live-game"></div>
+				<!-- <div id="live-game" style=''></div> -->
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
+						<div id="button_container">
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href=""><?php echo L::tournament_CX; ?></a></button>
+						</div>
 					</div>
 				</div>
-				<div class="row hideOnTimesUp">
+				<div class="row hideOnTimesUp" style='display:none;'>
 					<div class="col-lg-12">
 						<div id='separator_container'>
 							<span class="separator edge"></span>
@@ -143,14 +207,13 @@
 								<h3 id='seconds'>--</h3>
 								<h4><?php echo L::seconds; ?></h4>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div id="schedule">
+		<div id="schedule" style='display:none;'>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
@@ -194,35 +257,35 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/cheng.jpg">
 							<h3>Cheng</h3>
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/jero.jpg">
 							<h3>Jero</h3>
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/tmac.jpg">
 						<h3>Tmac</h3>
 						<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/jagger.jpg">
 							<h3>Jagger</h3>
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/watson.jpg">
 							<h3>Watson</h3>
@@ -230,14 +293,16 @@
 
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/bonny.jpg">
 						<h3>Bonny</h3>
 						<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					</div>
+					<div class='row'>
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/xiao.jpg">
 							<h3>Xiao</h3>
@@ -245,32 +310,38 @@
 
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/andy.jpg">
-							<h3>Andy</h3>
-							<p>Bio</p>
-
-						</div>
-					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
-						<div class="person">
-							<img src="/img/nobody.jpg">
+							<img src="/img/marcus.jpg" style='filter: saturate(0.75);'>
 						<h3>Marcus</h3>
 						<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/jenny.jpg">
-							<h3>Jenny</h3>
+							<img src="/img/pierce.jpg" style='filter: saturate(0.75);'>
+							<h3>Pierce</h3>
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-4 col-xs-4">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/jason.jpg">
-						<h3>Jason</h3>
+							<img src="/img/david.jpg" style='filter: saturate(0.75);'>
+						<h3>David</h3>
+						<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/awill.jpg" style='filter: saturate(0.85);'>
+						<h3>Awill</h3>
+						<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/amber.jpg" style='filter: saturate(0.75);'>
+						<h3>Amber</h3>
 						<p>Bio</p>
 						</div>
 					</div>
@@ -450,13 +521,13 @@
 					if(event.type === "finish") {
 						$("#live-game").show();
 						$(".hideOnTimesUp").hide();
-						onYouTubeIframeAPIReady();
+						//onYouTubeIframeAPIReady();
 					}
 				  $(this).text(event.strftime('%S'));
 				}).on('finish.countdown', function(){
 						$("#live-game").show();
 						$(".hideOnTimesUp").hide();
-						onYouTubeIframeAPIReady();
+						//onYouTubeIframeAPIReady();
 					});
 
 				$('.stream_modal').on('hidden.bs.modal', function () {
@@ -465,6 +536,7 @@
 
 			});
 
+	
 			function onYouTubeIframeAPIReady() {
 			  var player;
 			  player = new YT.Player('live-game', {

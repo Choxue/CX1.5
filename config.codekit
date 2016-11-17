@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19142",
 "files": {
 	"\/common_head.php": {
 		"fileType": 8192,
@@ -38,6 +38,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/amber.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20440,
+		"inputAbbreviatedPath": "\/img\/amber.jpg",
+		"outputAbbreviatedPath": "\/img\/amber.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/andy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -56,6 +67,17 @@
 		"initialSize": 245792,
 		"inputAbbreviatedPath": "\/img\/andy.png",
 		"outputAbbreviatedPath": "\/img\/andy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/awill.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17788,
+		"inputAbbreviatedPath": "\/img\/awill.jpg",
+		"outputAbbreviatedPath": "\/img\/awill.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -170,6 +192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/david.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11389,
+		"inputAbbreviatedPath": "\/img\/david.jpg",
+		"outputAbbreviatedPath": "\/img\/david.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/down_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -210,6 +243,17 @@
 		"initialSize": 9.88577e+06,
 		"inputAbbreviatedPath": "\/img\/DSC00429.JPG",
 		"outputAbbreviatedPath": "\/img\/DSC00429.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/DSC00429_web_blur copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212382,
+		"inputAbbreviatedPath": "\/img\/DSC00429_web_blur copy.jpg",
+		"outputAbbreviatedPath": "\/img\/DSC00429_web_blur copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -324,6 +368,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/marcus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20452,
+		"inputAbbreviatedPath": "\/img\/marcus.jpg",
+		"outputAbbreviatedPath": "\/img\/marcus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/media-appledaily.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -390,6 +445,193 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/media_logos\/augusta_chronicle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29554,
+		"inputAbbreviatedPath": "\/img\/media_logos\/augusta_chronicle.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/augusta_chronicle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/business_insider copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14513,
+		"inputAbbreviatedPath": "\/img\/media_logos\/business_insider copy.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/business_insider copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/business_insider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38154,
+		"inputAbbreviatedPath": "\/img\/media_logos\/business_insider.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/business_insider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/business_next.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22063,
+		"inputAbbreviatedPath": "\/img\/media_logos\/business_next.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/business_next.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/business_today.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73935,
+		"inputAbbreviatedPath": "\/img\/media_logos\/business_today.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/business_today.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/CCTV-5+体育赛事.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35177,
+		"inputAbbreviatedPath": "\/img\/media_logos\/CCTV-5+体育赛事.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/CCTV-5+体育赛事.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/cctv5-vpn-china.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17219,
+		"inputAbbreviatedPath": "\/img\/media_logos\/cctv5-vpn-china.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/cctv5-vpn-china.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/cctv5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20970,
+		"inputAbbreviatedPath": "\/img\/media_logos\/cctv5.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/cctv5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/forbes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91454,
+		"inputAbbreviatedPath": "\/img\/media_logos\/forbes.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/forbes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/GOODLOGO.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67098,
+		"inputAbbreviatedPath": "\/img\/media_logos\/GOODLOGO.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/GOODLOGO.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/goodtv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18839,
+		"inputAbbreviatedPath": "\/img\/media_logos\/goodtv.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/goodtv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/nbc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30735,
+		"inputAbbreviatedPath": "\/img\/media_logos\/nbc.jpg",
+		"outputAbbreviatedPath": "\/img\/media_logos\/nbc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/nbc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55634,
+		"inputAbbreviatedPath": "\/img\/media_logos\/nbc.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/nbc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/nbc_news.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19161,
+		"inputAbbreviatedPath": "\/img\/media_logos\/nbc_news.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/nbc_news.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/tvbs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12845,
+		"inputAbbreviatedPath": "\/img\/media_logos\/tvbs.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/tvbs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/tvbs_.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11036,
+		"inputAbbreviatedPath": "\/img\/media_logos\/tvbs_.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/tvbs_.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/media_logos\/yazhouzhoukan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43415,
+		"inputAbbreviatedPath": "\/img\/media_logos\/yazhouzhoukan.png",
+		"outputAbbreviatedPath": "\/img\/media_logos\/yazhouzhoukan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/menu-icon-large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -412,6 +654,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pierce.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19614,
+		"inputAbbreviatedPath": "\/img\/pierce.jpg",
+		"outputAbbreviatedPath": "\/img\/pierce.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/presskit_background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -430,6 +683,72 @@
 		"initialSize": 193063,
 		"inputAbbreviatedPath": "\/img\/profile.jpg",
 		"outputAbbreviatedPath": "\/img\/profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile\/amber.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.79146e+06,
+		"inputAbbreviatedPath": "\/img\/profile\/amber.jpg",
+		"outputAbbreviatedPath": "\/img\/profile\/amber.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile\/awill.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.93312e+06,
+		"inputAbbreviatedPath": "\/img\/profile\/awill.jpg",
+		"outputAbbreviatedPath": "\/img\/profile\/awill.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile\/david.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00979e+06,
+		"inputAbbreviatedPath": "\/img\/profile\/david.jpg",
+		"outputAbbreviatedPath": "\/img\/profile\/david.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile\/marcus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300187,
+		"inputAbbreviatedPath": "\/img\/profile\/marcus.jpg",
+		"outputAbbreviatedPath": "\/img\/profile\/marcus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile\/pierce.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02451e+06,
+		"inputAbbreviatedPath": "\/img\/profile\/pierce.jpg",
+		"outputAbbreviatedPath": "\/img\/profile\/pierce.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/quotes_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 515064,
+		"inputAbbreviatedPath": "\/img\/quotes_bg.jpg",
+		"outputAbbreviatedPath": "\/img\/quotes_bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -621,6 +940,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/youtube_banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 874075,
+		"inputAbbreviatedPath": "\/img\/youtube_banner.jpg",
+		"outputAbbreviatedPath": "\/img\/youtube_banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -640,6 +970,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_en.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_zh.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/langcache\/php_i18n_6b988d08aa48d369fb87a1773a26f363_L_zh.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/php-i18n\/composer.json": {
 		"fileType": 524288,
@@ -842,17 +1190,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/styleguide\/assets\/branding\/logo-ver-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47949,
-		"inputAbbreviatedPath": "\/styleguide\/assets\/branding\/logo-ver-1.jpg",
-		"outputAbbreviatedPath": "\/styleguide\/assets\/branding\/logo-ver-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/styleguide\/assets\/branding\/logo-ver-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -915,6 +1252,17 @@
 		"initialSize": 74959,
 		"inputAbbreviatedPath": "\/styleguide\/assets\/branding\/logo_monochrome_light_3000x2000.png",
 		"outputAbbreviatedPath": "\/styleguide\/assets\/branding\/logo_monochrome_light_3000x2000.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/styleguide\/assets\/branding\/sample.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148191,
+		"inputAbbreviatedPath": "\/styleguide\/assets\/branding\/sample.jpg",
+		"outputAbbreviatedPath": "\/styleguide\/assets\/branding\/sample.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -23,15 +23,9 @@ p {
   color: #555555;
   font-size: 16px;
 }
-
-#live-game {
-  width: 100%;
-  min-height: 600px;
-}
-
 #masthead {
   height: 100%;
-  background: url("/img/DSC00429_web_blur.jpg") #555555;
+  background: url("/img/DSC03219_compress.jpg") #555555;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,21 +51,8 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#presskit #history h2.subheader {
-    line-height: 1.3;
-    margin-bottom: 40px;
-}
 #presskit #history img {
   max-width: 100%;
-}
-#presskit #history p {
-    color: rgba( 85, 85, 85, .9);
-    font-size: 19px;
-    margin-bottom: 30px;
-    letter-spacing: .05px;
-}
-#presskit #history a:first-child {
-    font-style: italic;
 }
 #presskit #vision {
   background: #F4f4F4;
@@ -90,7 +71,7 @@ p {
 }
 #presskit #key_focuses h3 {
   text-align: center;
-  color: #e74c3c;
+  color: #f05a28;
   font-size: 18px;
 }
 #presskit #key_focuses div.sep {
@@ -124,7 +105,7 @@ p {
   letter-spacing: 2px;
   color: #555555;
   padding-left: 20px;
-  border-left: 7px solid #e74c3c;
+  border-left: 7px solid #f05a28;
 }
 h2 {
   color: #555555;
@@ -142,7 +123,7 @@ h2 {
   font-size: 28px;
   letter-spacing: 2px;
   color: #555555;
-  border-left: 7px solid #e74c3c;
+  border-left: 7px solid #f05a28;
   margin-top: 0;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -166,7 +147,7 @@ h2 {
   letter-spacing: 2px;
   color: #555555;
   padding-left: 20px;
-  border-left: 7px solid #e74c3c;
+  border-left: 7px solid #f05a28;
 }
 #aboutCX img {
   width: 22.5%;
@@ -208,7 +189,7 @@ h2 {
   }
 }
 #contact h3 {
-  color: #e74c3c;
+  color: #f05a28;
   font-size: 18px;
 }
 #contact p {
@@ -227,12 +208,11 @@ h2 {
 .btn {
   width: auto;
   display: inline-block;
-  background-color: #e74c3c;
+  background-color: #f05a28;
   color: #F4f4F4;
   font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
   font-size: 12px;
   padding: 10px 15px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .btn:focus {
   outline: 0;
@@ -240,28 +220,6 @@ h2 {
 .btn:hover {
   color: #F4f4F4;
 }
-
-.event {
-  font-family: Montserrat, 微軟正黑體, Microsoft JhengHei;
-  font-size: 12px;
-  padding: 10px 15px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 4px;
-  background: none;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-a.event {
-  text-decoration: none;
-}
-
-.event:hover {
-  background-color: white;
-  color: #e74c3c;
-}
-
 #team {
   background: #F4f4F4;
   padding-top: 50px;
@@ -303,7 +261,6 @@ a.event {
 }
 @media (min-width: 1200px) {
   #team .col-lg-1 {
-    width: 9.09090909%;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -320,7 +277,7 @@ a.event {
   letter-spacing: 0px;
   color: #F4f4F4;
   padding-right: 20px;
-  border-right: 7px solid #e74c3c;
+  border-right: 7px solid #f05a28;
 }
 #schedule img {
   width: 100%;
@@ -330,7 +287,7 @@ a.event {
   margin: 25px 0;
 }
 #schedule .event h3 {
-  color: #e74c3c;
+  color: #f05a28;
   font-size: 18px;
   margin-bottom: 2px;
 }
@@ -364,10 +321,10 @@ a.event {
   }
 }
 .carousel-indicators .active {
-  background-color: #e74c3c;
+  background-color: #f05a28;
 }
 .carousel-indicators li {
-  border-color: #e74c3c;
+  border-color: #f05a28;
 }
 @media screen and (min-width: 768px) {
   .carousel-indicators {
@@ -385,13 +342,13 @@ a.event {
 }
 .highlight {
   color: #F4f4F4;
-  background-color: #e74c3c;
+  background-color: #f05a28;
   padding: 1px 10px;
   margin-right: 10px;
 }
 em {
   color: #F4f4F4;
-  background-color: #e74c3c;
+  background-color: #f05a28;
   padding: 1px 10px;
   margin-right: 10px;
 }
@@ -420,7 +377,7 @@ em {
   padding: 20px 0;
 }
 #countdown p {
-  color: white;
+  color: #c1c1c1;
 }
 #countdown .countdown_text div {
   display: inline-block;
@@ -436,6 +393,55 @@ em {
 }
 #countdown .countdown_text h2 {
   margin: 0;
+}
+.quote {
+  color: #F4f4F4;
+}
+.quote h3 {
+  font-size: 14pt;
+  line-height: 1.3;
+  font-family: PT Serif, 微軟正黑體, Microsoft JhengHei;
+}
+.quote .name {
+  font-size: 14pt;
+  font-family: PT Serif, 微軟正黑體, Microsoft JhengHei;
+  margin-bottom: 5px;
+  text-align: right;
+}
+.quote .fa-quote-left,
+.quote .fa-quote-right,
+.quote .fa-caret-right {
+  color: #f05a28;
+}
+.quote .position {
+  margin-top: 0;
+  font-size: 10pt;
+}
+#featured {
+  background: url(/img/investors.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+#featured #separator_container {
+  padding: 20px 0;
+}
+#featured p {
+  color: #c1c1c1;
+}
+.media_logo {
+  max-width: 100%;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+.media_logo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#headroom {
+  margin-top: 200px;
 }
 .nav {
   z-index: 100;
@@ -467,8 +473,8 @@ em {
 .nav .internalNav > a.active,
 .nav .internalNav .dropdown > a:hover,
 .nav .internalNav .dropdown > a.active {
-  color: #e74c3c;
-  border-bottom: 1px solid #e74c3c;
+  color: #f05a28;
+  border-bottom: 1px solid #f05a28;
 }
 .nav .internalNav .dropdown {
   display: inline-block;
@@ -513,7 +519,7 @@ a {
   width: 6px;
   height: 6px;
   border-radius: 3px;
-  background-color: #e74c3c;
+  background-color: #f05a28;
 }
 #social_media_container {
   text-align: center;
@@ -543,11 +549,14 @@ a {
   margin: 0 10px;
 }
 #button_container .youtube {
-  background-color: #e74c3c;
-  border-color: #c52a1a;
+  background-color: #f05a28;
+  border-color: #ce3806;
 }
 #button_container .youtube:hover {
-  background-color: #c52a1a;
+  background-color: #ce3806;
+}
+#button_container a {
+  color: white;
 }
 #button_container .schedule {
   background-color: #F4f4F4;
@@ -594,6 +603,9 @@ a {
     float: left;
     margin-left: 8px;
     margin-right: 8px;
+  }
+  #headroom {
+    margin-top: 0;
   }
 }
 @media (max-width: 481px) {
