@@ -43,6 +43,8 @@
 
 							ko.mapping.fromJS(rows, self.gsheet_basic);
 							console.log(rows);
+							$("#basic").show();
+							$("#spinner").hide();
 					});
 
 					$.ajax({
@@ -65,6 +67,8 @@
 							console.log(rows);
 
 							ko.mapping.fromJS(rows, self.gsheet_pro);
+							$("#pro").show();
+							$("#spinner").hide();
 
 					});
 				};
@@ -103,10 +107,14 @@
 					</div>
 				</div>
 
-
+				<div class="row" id='spinner'>
+					<div class="col-lg-12">
+						<div class="spinner"></div>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-5 col-lg-push-1">
-						<table class="table table-condensed orangearmy">
+						<table class="table table-condensed orangearmy" id='basic'>
 						  <thead>
 						    <tr>
 						      <th style='text-align: center;'><span class="label label-default">BASIC</span></th>
@@ -145,7 +153,7 @@
 						</table>
 					</div>
 					<div class="col-lg-5 col-lg-push-1">
-						<table class="table table-condensed orangearmy">
+						<table class="table table-condensed orangearmy" id='pro'>
 						  <thead>
 						    <tr>
 						      <th style='text-align: center;'><span class="label label-danger">PRO</span></th>
