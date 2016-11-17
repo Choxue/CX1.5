@@ -4,6 +4,8 @@
 			<li><a href='/' class='active'><?php echo L::nav_home; ?></a></li>
 			<li><a href='/#aboutCX'><?php echo L::nav_about; ?></a></li>
 			<li><a href='/#featured'><?php echo L::nav_press; ?></a></li> 
+			<li><a href='/presskit'><?php echo L::nav_press_kit; ?></a></li> 
+			<li><a href='/pressrelease'><?php echo L::nav_press_release; ?></a></li> 
 			<li><a href='/#countdown'><?php echo L::nav_tournament_CX; ?></a></li>  
 			<li><a href='/#team'><?php echo L::nav_team; ?></a></li> 
 			<li><a href='/#contact'><?php echo L::nav_contact; ?></a></li>
@@ -18,7 +20,15 @@
 		<div class="internalNav">
 			<a href='/' class='active'><?php echo L::nav_home; ?></a>  
 			<a href='/#aboutCX'><?php echo L::nav_about; ?></a> 
-			<a href='/#featured'><?php echo L::nav_press; ?></a> 
+			<li class="dropdown">
+				<a href="http://www.choxue.com" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo L::nav_press; ?> <span class="caret"></span></a>
+				<ul class="dropdown-menu" style='min-width: 100px;'>
+					<li><a href="/#featured"><?php echo L::nav_press; ?></a></li>
+					<li><a href="/presskit"><?php echo L::nav_press_kit; ?></a></li>
+					<li><a href="/pressrelease"><?php echo L::nav_press_release; ?></a></li>
+				</ul>
+			</li>
+
 			<a href='/#countdown'><?php echo L::nav_tournament_CX; ?></a>  
 			<a href='/#team'><?php echo L::nav_team; ?></a>
 			<a href='/#contact'><?php echo L::nav_contact; ?></a>  
