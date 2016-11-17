@@ -8,7 +8,7 @@
 
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
 	<head>
-		<title><? echo L::orange_army_name; ?> - <?php echo L::title; ?></title>
+		<title><?php echo L::orange_army_name; ?> - <?php echo L::title; ?></title>
 		<?php include('common_head.php'); ?>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
@@ -84,7 +84,7 @@
 				<?php include('common_nav.php'); ?>
 				<div class="row">
 					<header  class="col-lg-12" id="banner" style='margin-top: 0;'>
-						<h1><? echo L::orange_army_name; ?></h1>
+						<h1><?php echo L::orange_army_name; ?></h1>
 						<div id='separator_container'>
 							<span class="separator edge"></span>
 							<span class="separator center"></span>
@@ -99,7 +99,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-push-2">
-						<p style='line-height: 1.5;text-align:center;'><span class='bold cx_orange'><? echo L::orange_army_name; ?></span> <?php echo L::orange_army; ?></p>
+						<p style='line-height: 1.5;text-align:center;'><span class='bold cx_orange'><?php echo L::orange_army_name; ?></span> <?php echo L::orange_army; ?></p>
 					</div>
 				</div>
 
