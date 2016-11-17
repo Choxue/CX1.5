@@ -127,7 +127,15 @@
 						<h4 class='name position'><?php echo L::featured_richard_title; ?></h4>
 					</div>
 				</div>
-				<div class="row" style='margin-top:60px;'>
+				<div class="row" style='margin-top:30px;'>
+					<div class="col-lg-8 col-lg-push-2">
+						<div id="button_container">
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://www.choxue.com/presskit"><?php echo L::nav_press_kit; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://www.choxue.com/pressrelease"><?php echo L::nav_press_release; ?></a></button>
+						</div>
+					</div>
+				</div>
+				<div class="row" style='margin-top:30px;'>
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 col-md-push-1 col-lg-push-1">
 						<a target="_blank" href="http://www.nbcnews.com/news/asian-america/harvard-grad-cheng-ho-wants-fix-taiwan-s-high-school-n656406"><img src="/img/media_logos/nbc_news.png" alt="" class='media_logo'></a>
 					</div>
