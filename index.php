@@ -187,7 +187,7 @@
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
 						<div id="button_container">
-							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://cxi.choxue.com/"><?php echo L::tournament_CX; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a target="_blank" href="http://cxi.choxue.com/"><?php echo L::tournament_CX; ?></a></button>
 						</div>
 					</div>
 				</div>
