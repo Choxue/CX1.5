@@ -187,7 +187,7 @@
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
 						<div id="button_container">
-							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a target="_blank" href="http://cxi.choxue.com/"><?php echo L::tournament_CX; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a target="_blank" href="http://clan.choxue.com/"><?php echo L::tournament_CX; ?></a></button>
 						</div>
 					</div>
 				</div>
@@ -293,14 +293,7 @@
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/watson.jpg">
-							<h3>Watson</h3>
-							<p>Bio</p>
-
-						</div>
-					</div>
+					
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/bonny.jpg">
@@ -308,8 +301,6 @@
 						<p>Bio</p>
 						</div>
 					</div>
-					</div>
-					<div class='row'>
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/xiao.jpg">
@@ -318,13 +309,10 @@
 
 						</div>
 					</div>
-					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/marcus.jpg" style='filter: saturate(0.75);'>
-						<h3>Marcus</h3>
-						<p>Bio</p>
-						</div>
+				
 					</div>
+					<div class='row'>
+				
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/pierce.jpg" style='filter: saturate(0.75);'>
@@ -350,6 +338,20 @@
 						<div class="person">
 							<img src="/img/amber.jpg" style='filter: saturate(0.75);'>
 						<h3>Amber</h3>
+						<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/woman.jpg" style='filter: saturate(0.75);'>
+						<h3>Stanie</h3>
+						<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/nobody.jpg" style='filter: saturate(0.75);'>
+						<h3>Andy</h3>
 						<p>Bio</p>
 						</div>
 					</div>
