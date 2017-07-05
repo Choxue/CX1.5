@@ -315,7 +315,7 @@
 				
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/pierce1.jpg" style='filter: saturate(0.75);'>
+							<img src="/img/pierce.jpg" style='filter: saturate(0.75);'>
 							<h3>Pierce</h3>
 							<p>Bio</p>
 						</div>
@@ -343,14 +343,14 @@
 					</div>
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/stanie.jpg" style='filter: saturate(0.75);'>
+							<img src="/img/stanie.jpg">
 						<h3>Stanie</h3>
 						<p>Bio</p>
 						</div>
 					</div>
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/andy.jpg" style='filter: saturate(0.75);'>
+							<img src="/img/andy.jpg">
 						<h3>Andy</h3>
 						<p>Bio</p>
 						</div>
