@@ -315,7 +315,7 @@
 				
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/pierce1.jpg">
+							<img src="/img/pierce.jpg">
 							<h3>Pierce</h3>
 							<p>Bio</p>
 						</div>
