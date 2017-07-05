@@ -41,8 +41,7 @@
 					<li><a href="http://sports.choxue.com/leagues/4">HBL</a></li>
 					<li><a href="http://wsbl.choxue.com/">WSBL</a></li>
 					<li><a href="http://sbl.choxue.com/">SBL</a></li>
-					<li><a href="http://jonesCup.choxue.com/">Jones Cup</a></li>
-					<li><a href="http://clan.choxue.com/">球學盃</a></li>
+					<li><a href="http://jonesCup.choxue.com/"><?php echo L::nav_tournament_JonesCup; ?>Jones Cup</a></li>
 				</ul>
 			</li>
 		</div>
