@@ -47,6 +47,8 @@
 		</div>
 		<div class="" id='menuFade'>
 			<div class="cx-badge">
+				<a href="https://v2.choxue.com"><img src="./img/cx_logo.png" title="球學平台" height="45px" /></a>
+
 			</div>
 
 		</div>				

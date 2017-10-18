@@ -638,7 +638,6 @@ a {
 }
 .cx-badge {
   display: block;
-  background: url('/img/cx_logo.png');
   width: 160px;
   height: 100px;
   background-size: 160px;

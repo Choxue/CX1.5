@@ -333,7 +333,7 @@
 					</div>
 					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/mamaho.jpg">
+							<img src="/img/mama Ho.jpg">
 							<h3>Mamaho</h3>
 							<p>Bio</p>
 						</div>
