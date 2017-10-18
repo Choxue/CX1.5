@@ -220,16 +220,20 @@ h2 {
 .btn:hover {
   color: #F4f4F4;
 }
+
+
 #team {
   background: #F4f4F4;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+
 }
 #team h2 {
   color: #555555;
   font-size: 30px;
   margin: 0;
+
 }
 #team #separator_container {
   padding: 20px 0;
@@ -237,6 +241,12 @@ h2 {
 #team #separator_container .edge {
   border-color: #555555;
 }
+
+@media (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+  
+}
+
 #team .person {
   text-align: center;
   transition-duration: 0.25s;
@@ -264,6 +274,7 @@ h2 {
     padding-left: 5px;
     padding-right: 5px;
   }
+
 }
 #schedule {
   background: #222222;

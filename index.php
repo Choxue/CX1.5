@@ -12,6 +12,7 @@
 		<!-- <script src="https://www.youtube.com/iframe_api"></script> -->
 		<title><?php echo L::title; ?></title>	
 		<?php include('common_head.php'); ?>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 	</head>
 
 	<body>
@@ -58,12 +59,6 @@
 		    </div>
 		  </div>
 		</div>
-
-
-
-
-
-
 
 
 
@@ -173,7 +168,7 @@
 		</div>
 
 
-
+<!-- 
 		<div id="countdown">
 			<div class="container">
 				<div class="row">
@@ -182,7 +177,7 @@
 						<h3 class="hideOnTimesUp"><?php echo L::tournament_CX_subtitle; ?></h3>
 					</div>
 				</div>
-				<!-- <div id="live-game" style=''></div> -->
+				 <div id="live-game" style=''></div> 
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
@@ -219,7 +214,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div id="schedule" style='display:none;'>
 			<div class="container">
@@ -249,9 +244,109 @@
 			</div>
 		</div>
 
-		
-
 		<div id="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2><?php echo L::meet_us; ?></h2>
+						<div id="separator_container">
+							<span class="separator_edge"></span>
+							<span class="separator_center"></span>
+							<span class="separator_edge"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
+							<div class="person">
+							<img src="/img/cheng.jpg">
+							<h3>Cheng</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/jero.jpg">
+							<h3>Jero</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/jagger.jpg">
+							<h3>Jagger</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/tmac.jpg">
+							<h3>Tmac</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/bonny.jpg">
+							<h3>Bonny</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/xiao.jpg">
+							<h3>Xiao</h3>
+							<p>Bio</p>
+						</div>
+					</div> 
+				</div>
+
+				<div class="row">
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/pierce.jpg">
+							<h3>Pierce</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/awill.jpg">
+							<h3>Awill</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/stanie.jpg">
+							<h3>Stanie</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/tim.jpg">
+							<h3>Tim</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
+						<div class="person">
+							<img src="/img/mamaho.jpg">
+							<h3>Mamaho</h3>
+							<p>Bio</p>
+						</div>
+					</div>
+					
+				</div>
+				
+
+			</div>
+		</div>
+
+
+		<!-- <div id="team">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -286,6 +381,8 @@
 						<p>Bio</p>
 						</div>
 					</div>
+				</div>
+				<div class="row">
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/jagger.jpg">
@@ -320,24 +417,11 @@
 							<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/david.jpg" style='filter: saturate(0.75);'>
-						<h3>David</h3>
-						<p>Bio</p>
-						</div>
-					</div>
+					
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/awill.jpg" style='filter: saturate(0.85);'>
 						<h3>Awill</h3>
-						<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/amber.jpg" style='filter: saturate(0.75);'>
-						<h3>Amber</h3>
 						<p>Bio</p>
 						</div>
 					</div>
@@ -348,16 +432,10 @@
 						<p>Bio</p>
 						</div>
 					</div>
-					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/andy.jpg">
-						<h3>Andy</h3>
-						<p>Bio</p>
-						</div>
-					</div>
+				
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div id="contact">
 			<div class="container">
