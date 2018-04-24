@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -65,14 +59,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/andy.png": {
-		"ft": 32768,
-		"iS": 245792,
-		"oA": 0,
-		"oAP": "\/img\/andy.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/img\/awill.jpg": {
 		"ft": 16384,
 		"iS": 17788,
@@ -110,6 +96,14 @@
 		"iS": 1852,
 		"oA": 0,
 		"oAP": "\/img\/close-icon-large.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/countdown 拷貝.jpg": {
+		"ft": 16384,
+		"iS": 47364,
+		"oA": 0,
+		"oAP": "\/img\/countdown 拷貝.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -318,6 +312,14 @@
 		"iS": 35451,
 		"oA": 0,
 		"oAP": "\/img\/jero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/mamaho.jpg": {
+		"ft": 16384,
+		"iS": 136179,
+		"oA": 0,
+		"oAP": "\/img\/mamaho.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -531,7 +533,7 @@
 		},
 	"\/img\/pierce.jpg": {
 		"ft": 16384,
-		"iS": 19614,
+		"iS": 48525,
 		"oA": 0,
 		"oAP": "\/img\/pierce.jpg",
 		"oF": 0,
@@ -614,6 +616,22 @@
 		"iS": 85686,
 		"oA": 0,
 		"oAP": "\/img\/Slack for iOS Upload.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/stanie.jpg": {
+		"ft": 16384,
+		"iS": 55884,
+		"oA": 0,
+		"oAP": "\/img\/stanie.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/tim.jpg": {
+		"ft": 16384,
+		"iS": 661064,
+		"oA": 0,
+		"oAP": "\/img\/tim.jpg",
 		"oF": 0,
 		"opt": 0
 		},
