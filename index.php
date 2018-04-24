@@ -5,12 +5,12 @@
 		$i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'zh');
 		$i18n->init();
 	?>
-	
+
 	<!--<p>Applied language: <?php echo $i18n->getAppliedLang(); ?> </p>-->
-	
+
 	<head>
 		<!-- <script src="https://www.youtube.com/iframe_api"></script> -->
-		<title><?php echo L::title; ?></title>	
+		<title><?php echo L::title; ?></title>
 		<?php include('common_head.php'); ?>
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 	</head>
@@ -125,8 +125,8 @@
 				<div class="row" style='margin-top:30px;'>
 					<div class="col-lg-8 col-lg-push-2">
 						<div id="button_container">
-							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://www.choxue.com/presskit"><?php echo L::nav_press_kit; ?></a></button>
-							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="http://www.choxue.com/pressrelease"><?php echo L::nav_press_release; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="/presskit"><?php echo L::nav_press_kit; ?></a></button>
+							<button type='button' class='btn btn-primary youtube' data-toggle="modal" data-target=""><a href="/pressrelease"><?php echo L::nav_press_release; ?></a></button>
 						</div>
 					</div>
 				</div>
@@ -168,7 +168,7 @@
 		</div>
 
 
-<!-- 
+<!--
 		<div id="countdown">
 			<div class="container">
 				<div class="row">
@@ -177,7 +177,7 @@
 						<h3 class="hideOnTimesUp"><?php echo L::tournament_CX_subtitle; ?></h3>
 					</div>
 				</div>
-				 <div id="live-game" style=''></div> 
+				 <div id="live-game" style=''></div>
 				<div class="row">
 					<div class="col-lg-6 col-lg-push-3">
 						<p><?php echo L::tournament_CX_description; ?></p>
@@ -299,7 +299,7 @@
 							<h3>Xiao</h3>
 							<p>Bio</p>
 						</div>
-					</div> 
+					</div>
 				</div>
 
 				<div class="row">
@@ -338,9 +338,9 @@
 							<p>Bio</p>
 						</div>
 					</div>
-					
+
 				</div>
-				
+
 
 			</div>
 		</div>
@@ -390,7 +390,7 @@
 							<p>Bio</p>
 						</div>
 					</div>
-					
+
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/bonny.jpg">
@@ -406,10 +406,10 @@
 
 						</div>
 					</div>
-				
+
 					</div>
 					<div class='row'>
-				
+
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/pierce.jpg">
@@ -417,7 +417,7 @@
 							<p>Bio</p>
 						</div>
 					</div>
-					
+
 					<div class="col-lg-push-3 col-lg-1 col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
 							<img src="/img/awill.jpg" style='filter: saturate(0.85);'>
@@ -432,7 +432,7 @@
 						<p>Bio</p>
 						</div>
 					</div>
-				
+
 				</div>
 			</div>
 		</div> -->
@@ -624,7 +624,7 @@
 
 			});
 
-	
+
 			function onYouTubeIframeAPIReady() {
 			  var player;
 			  player = new YT.Player('live-game', {
@@ -655,7 +655,7 @@
 		  ga('create', 'UA-84827874-1', 'auto');
 		  ga('send', 'pageview');
 
-		
+
 		</script>
 	</body>
 </html>
