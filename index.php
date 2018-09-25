@@ -267,20 +267,6 @@
 					</div>
 					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/jero.jpg">
-							<h3>Jero</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/jagger.jpg">
-							<h3>Jagger</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
 							<img src="/img/tmac.jpg">
 							<h3>Tmac</h3>
 							<p>Bio</p>
@@ -290,23 +276,6 @@
 						<div class="person">
 							<img src="/img/bonny.jpg">
 							<h3>Bonny</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/xiao.jpg">
-							<h3>Xiao</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
-							<img src="/img/pierce.jpg">
-							<h3>Pierce</h3>
 							<p>Bio</p>
 						</div>
 					</div>
@@ -326,22 +295,12 @@
 					</div>
 					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
 						<div class="person">
-							<img src="/img/tim.jpg">
-							<h3>Tim</h3>
-							<p>Bio</p>
-						</div>
-					</div>
-					<div class="col-lg-push-3 col-lg-1  col-md-2 col-sm-2 col-xs-4">
-						<div class="person">
 							<img src="/img/mamaho.jpg">
 							<h3>Mama Ho</h3>
 							<p>Bio</p>
 						</div>
 					</div>
-
 				</div>
-
-
 			</div>
 		</div>
 
